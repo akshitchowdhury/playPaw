@@ -13,7 +13,7 @@ const Home2half = () => {
 </div>
 
 
-    <div className="self-center px-5 mt-11 w-full max-w-[1272px] max-md:mt-10 max-md:max-w-full">
+    <div className="self-center px-5 mt-11 w-full max-w-[1272px] max-md:mt-10 max-md:max-w-full" style={{marginLeft: '5%'}}>
       <div className="flex gap-5 max-md:flex-col max-md:gap-0">
         <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col grow items-center px-11 pt-5 pb-8 mt-2 w-full text-center text-fuchsia-900 bg-pink-100 rounded-xl border-2 border-solid border-zinc-400 max-md:px-5 max-md:mt-8">
