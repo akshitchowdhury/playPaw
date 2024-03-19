@@ -36,7 +36,7 @@ const Home3half = () => {
           </div>
         </div>
       </div>
-      <div className="self-center px-5 mt-2 max-w-full w-[875px]">
+      <div className="self-center px-5 mt-2 max-w-full w-[875px]" style={{marginTop: '5%'}}>
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-[28%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col text-2xl tracking-wider text-center text-white max-md:mt-10">
