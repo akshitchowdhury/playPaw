@@ -4,6 +4,8 @@ import homeKid from '../../assets/homekid1.jpg'
 
 import './Home.css'
 import Home2half from './Home2half'
+import Home3half from './Home3half'
+import Home4half from './Home4half'
 
 
 const Home = () => {
@@ -73,7 +75,8 @@ const Home = () => {
     </div>
   </div>
 <Home2half/>
-
+<Home3half/>
+<Home4half/>
 </>
 
 
