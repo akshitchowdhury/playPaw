@@ -81,7 +81,7 @@ const Footer = () => {
       </div>
       <div className="shrink-0 mt-8 h-px border border-solid bg-zinc-800 border-zinc-800 max-md:max-w-full" />
       <div className="self-center mt-7 text-base tracking-wide text-neutral-500 max-md:max-w-full">
-        @copyright 2023 all right reserved by titan construction
+        @copyright 2024 Powered by Innomatrics Technologies
       </div>
     </div>  )
 }
