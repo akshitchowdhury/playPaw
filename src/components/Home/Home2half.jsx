@@ -64,7 +64,7 @@ const Home2half = () => {
           </div>
         </div>
         <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-          <div className="flex flex-col items-center px-11 pt-5 pb-8 w-full text-center text-fuchsia-900 bg-pink-100 rounded-xl border-2 border-solid border-zinc-400 max-md:px-5 max-md:mt-6">
+          <div className="flex flex-col items-center px-11 pt-5 pb-8 w-full text-center text-white bg-fuchsia-950 rounded-xl border-2 border-solid border-zinc-400 max-md:px-5 max-md:mt-6">
             <img
               loading="lazy"
               src={home2d} style={{borderRadius: '30%'}}
