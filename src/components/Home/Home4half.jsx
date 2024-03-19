@@ -6,7 +6,7 @@ import hkidd from '../../assets/homekid4d.jpg';
 
 const Home4half = () => {
   return (
-    <div className="flex flex-col mt-8 mb-7 w-full max-w-[90%] mx-auto">
+    <div className="flex flex-col mt-8 mb-7 w-full max-w-[90%] mx-auto" >
       <div className="self-center text-xl tracking-wide text-fuchsia-700">
         Educational Programs
       </div>

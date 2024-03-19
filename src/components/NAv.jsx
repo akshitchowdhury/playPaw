@@ -51,7 +51,7 @@ const NAv = () => {
           />
         </div> */}
         <div className="justify-center px-4 py-1.5 mt-5 text-fuchsia-900 bg-yellow-400 rounded">
-          Join Now
+         <button> Get a Quote</button>
         </div>
       </div>
     </div>
