@@ -9,7 +9,7 @@ import './Home2half.css'
 const Home2half = () => {
   return (
     <>
-      <div className="self-center mt-8 text-4xl tracking-wider text-center text-fuchsia-900 max-w-[90%] mx-auto">
+      <div className="bubblegum-sans-regular self-center mt-8 text-4xl tracking-wider text-center text-fuchsia-900 max-w-[90%] mx-auto">
         Providing Good Qualities For Your Loving Kids
       </div>
 

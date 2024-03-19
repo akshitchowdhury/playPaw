@@ -8,3 +8,9 @@
     transform: scale(1.1); /* Enlarge the card on hover */
   }
   
+  .bubblegum-sans-regular {
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
