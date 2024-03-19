@@ -6,7 +6,7 @@ import hkidc from '../../assets/homekid4c.jpg'
 import hkidd from '../../assets/homekid4d.jpg'
 const Home4half = () => {
   return (
-    <div className="flex flex-col mt-20 mb-7 w-full max-w-[1111px] max-md:mt-10 max-md:max-w-full" style={{marginLeft: '10%'}}>
+    <div className="flex flex-col mt-20 mb-7 w-full max-w-[1111px] max-md:mt-10 max-md:max-w-full" style={{marginLeft: '10%',}}>
       <div className="self-center text-xl tracking-wide text-fuchsia-700">
         Educational Programs
       </div>
