@@ -18,10 +18,10 @@ const Home = () => {
           {/* <div className="z-10 tracking-widest border-white border-solid border-[3px] max-md:max-w-full max-md:text-4xl">
             Welcome to Kiddy Rainbow Slime CO.
           </div> */}
-          <div className="tracking-widest border-fuchsia-900 border-solid border-[3px] max-md:max-w-full max-md:text-4xl">
+          <div className="londrina-sketch-regular tracking-widest border-fuchsia-900 border-solid border-[3px] max-md:max-w-full max-md:text-4xl">
             Welcome to Kiddy Rainbow Slime CO.
           </div>
-          <div className="mt-5 text-lg text-fuchsia-950 max-md:max-w-full">
+          <div className="mystery-quest-regular mt-5 text-lg text-fuchsia-950 max-md:max-w-full ">
             Formulate innovative web-readiness and installed base ideas.
             Distinctively integrate high-payoff paradigms without next
             generation systems disseminate holistic e-services through

@@ -1,3 +1,17 @@
 .home{
     background-image: url('../../assets/homeBg.jpg');
+    background-attachment: fixed;
 }
+
+.mystery-quest-regular {
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+  }
+  
