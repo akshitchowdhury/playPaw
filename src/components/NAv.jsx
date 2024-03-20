@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const NAv = () => {
   return (
@@ -25,18 +26,13 @@ const NAv = () => {
         <div className="flex gap-8 self-start mt-3 text-white max-md:flex-wrap" style={{marginLeft: '20%'}}>
           <div className="grow">Home</div>
           <div className="flex gap-1.5">
-            <div className="grow">Slime Shop</div>
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/6e64ce90508034502b0beb489a1d204b7652f35cebfa3a28adb476a40b342a7e?"
-              className="shrink-0 my-auto aspect-[1.49] fill-white w-[9px]"
-            />
+            <div className="grow"><Link to = '/about'>About Us</Link></div>
+           
           </div>
           <div className="flex gap-8 max-md:flex-wrap">
-            <div className="grow">Subscription Box</div>
-            <div>Gift Card</div>
-            <div>Slime FAQ</div>
-            <div>About</div>
+            <div className="grow">Attractons</div>
+            <div>Events</div>
+            <div>Pricing</div>
             <div>Contact Us</div>
           </div>
         </div>
