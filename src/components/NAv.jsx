@@ -24,16 +24,16 @@ const NAv = () => {
           </div>
         </div>
         <div className="flex gap-8 self-start mt-3 text-white max-md:flex-wrap" style={{marginLeft: '20%'}}>
-          <div className="grow">Home</div>
+          <div className="grow"><Link to = '/'>Home</Link></div>
           <div className="flex gap-1.5">
             <div className="grow"><Link to = '/about'>About Us</Link></div>
            
           </div>
           <div className="flex gap-8 max-md:flex-wrap">
-            <div className="grow">Attractons</div>
-            <div>Events</div>
-            <div>Pricing</div>
-            <div>Contact Us</div>
+            <div className="grow"><Link to = '/attarctions'>Attractons</Link></div>
+            <div><Link to = '/events'>Events</Link></div>
+            <div><Link to = '/pricing'>Pricing</Link></div>
+            <div><Link to = '/contact'>Contact Us</Link></div>
           </div>
         </div>
       </div>

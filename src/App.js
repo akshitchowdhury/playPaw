@@ -5,15 +5,20 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import NAv from './components/NAv';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Pricing from './components/Pricing/Pricing';
+import Franchise from './components/Franchise/Franchise';
+import Events from './components/Events/Events';
+import Contact from './components/Contact/Contact';
 
 
 function App() {
   return (
     <div className="App">
     <Router>
+    <NAv/>
       <Routes>
         
-      <NAv/>
+      
       <Route path='/' element= {<Home/>}/>
       <Route path='/about' element= {<About/>}/>
       <Route path='/èvents' element= {<Events/>}/>
@@ -21,8 +26,9 @@ function App() {
       <Route path='/pricing' element= {<Pricing/>}/>
       <Route path='/contact' element= {<Contact/>}/>
       
-      <Footer/>
+      
       </Routes>
+      <Footer/>
     </Router>
 
 
