@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import './Nav.css'
 const NAv = () => {
   return (
     <>
@@ -23,19 +23,34 @@ const NAv = () => {
             />
           </div>
         </div>
-        <div className="flex gap-8 self-start mt-3 text-white max-md:flex-wrap" style={{marginLeft: '20%'}}>
-          <div className="grow"><Link to = '/'>Home</Link></div>
-          <div className="flex gap-1.5">
-            <div className="grow"><Link to = '/about'>About Us</Link></div>
-           
-          </div>
-          <div className="flex gap-8 max-md:flex-wrap">
-            <div className="grow"><Link to = '/attarctions'>Attractons</Link></div>
-            <div><Link to = '/events'>Events</Link></div>
-            <div><Link to = '/pricing'>Pricing</Link></div>
-            <div><Link to = '/contact'>Contact Us</Link></div>
-          </div>
-        </div>
+        <div className="flex gap-8 self-start mt-3 text-white max-md:flex-wrap" style={{ marginLeft: '20%' }}>
+  <div className="grow">
+    <Link className='navbar-link' to='/'>Home</Link>
+  </div>
+  <div className="flex gap-1.5">
+    <div className="grow">
+      <Link className='navbar-link' to='/about'>About Us</Link>
+    </div>
+  </div>
+  <div className="flex gap-8 max-md:flex-wrap">
+    <div className="grow">
+      <Link className='navbar-link' to='/attractions'>Attractions</Link>
+    </div>
+    <div>
+      <Link className='navbar-link' to='/events'>Events</Link>
+    </div>
+    <div>
+      <Link className='navbar-link' to='/franchise'>Franchise</Link>
+    </div>
+    <div>
+      <Link className='navbar-link' to='/pricing'>Pricing</Link>
+    </div>
+    <div>
+      <Link className='navbar-link' to='/contact'>Contact Us</Link>
+    </div>
+  </div>
+</div>
+
       </div>
       <div className="flex flex-col mt-4 font-medium" >
         {/* <div className="flex flex-col items-start pl-20 text-white whitespace-nowrap max-md:pl-5">

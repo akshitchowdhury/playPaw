@@ -1,0 +1,12 @@
+.navbar-link {
+    transition: transform 0.3s ease, color 0.5s ease; /* Added color transition */
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: smaller;
+  }
+  
+  .navbar-link:hover {
+    transform: scale(1.2); /* Enlarge the link on hover */
+    color: rgb(48, 104, 187); /* New color */
+  }
+  
