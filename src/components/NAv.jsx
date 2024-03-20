@@ -61,9 +61,10 @@ const NAv = () => {
             className="aspect-square w-[33px]"
           />
         </div> */}
-        <div className="justify-center px-4 py-1.5 mt-5 text-fuchsia-900 bg-yellow-400 rounded">
-         <button> Get a Quote</button>
-        </div>
+        <div className="NavButton justify-center px-4 py-1.5 mt-5 text-fuchsia-900 bg-yellow-400 rounded-full">
+  <Link to='/contact' >Get a Quote</Link>
+</div>
+
       </div>
     </div>
     </>
