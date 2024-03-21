@@ -6,7 +6,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: #0c686b;
+    color: rgb(100, 91, 228);
     /* border: 3pt solid red; */
 }
 
@@ -14,18 +14,19 @@
 
 
 .form{
-    box-shadow: 3px 3px 5px 5px rgb(112, 111, 111);
+    box-shadow: 2px 3px 5px 5px rgb(100, 91, 228);
     /* border: 3pt solid blue; */
-    margin-top: 3%;
+    margin-top: 4%;
+    margin-left: 5%;
     
 
 }
 
 input{
-    background-color: #191414;
+    background-color: inherit
 }
 textarea{
-    background-color: #191414;
+    background-color: inherit;
 }
 .map-box{
     
