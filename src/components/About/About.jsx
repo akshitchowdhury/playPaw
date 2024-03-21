@@ -14,9 +14,9 @@ const About = () => {
             <div className="container mx-auto p-8">
                 <h1 className="text-3xl font-bold mb-4 text-fuchsia-700">Welcome to Play Paw!</h1>
                 <div className="flex flex-wrap" style={{ padding: '5%', marginTop: '-3%',  }}>
-                    <div className="w-full md:w-1/2"> 
-                        <img src={about} alt="Play Paw Logo" className="rounded-lg border-4 border-fuchsia-700 mb-4" style={{height: '70%'}}/>
-                    </div>
+                     
+                        <img src={about} alt="Play Paw Logo" className="rounded-lg border-4 border-fuchsia-700 mb-4" style={{height: '60%', marginRight: '150px'}}/>
+                    
                     <div className="w-full md:w-1/2 md:pl-8" style={{height: '50%', fontWeight: '600',}}>
                         <p className="text-lg mb-2 md:mb-4">At Play Paw, we believe in creating a world of fun and excitement for kids! Our playzone area is designed to be a haven of joy, where children can unleash their imagination and energy in a safe and vibrant environment.</p>
                         <p className="text-lg mb-2 md:mb-4">With colorful play structures, interactive games, and engaging activities, Play Paw is the ultimate destination for kids to laugh, play, and make new friends. Our dedicated staff ensures that every visit is filled with unforgettable moments and endless smiles.</p>

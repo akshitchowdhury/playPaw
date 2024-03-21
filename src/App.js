@@ -9,6 +9,8 @@ import Pricing from './components/Pricing/Pricing';
 import Franchise from './components/Franchise/Franchise';
 import Events from './components/Events/Events';
 import Contact from './components/Contact/Contact';
+import Attractions from './components/Attractions/Attractions';
+
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
       
       <Route path='/' element= {<Home/>}/>
       <Route path='/about' element= {<About/>}/>
+      <Route path='/attractions' element= {<Attractions/>}/>
       <Route path='/èvents' element= {<Events/>}/>
       <Route path='/franchise' element= {<Franchise/>}/>
       <Route path='/pricing' element= {<Pricing/>}/>
