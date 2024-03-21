@@ -38,22 +38,23 @@ const MapLeaflet = () => {
   };
 
   return (
-    <div className="map-box w-full md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto md:mt-6">
-      <MapContainer center={fixedLocation} zoom={13} className="w-full h-96 md:h-full">
-        <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        />
-        <Marker position={fixedLocation} icon={redIcon} eventHandlers={{ click: handleMarkerClick }}>
-          <Popup>KK Industries</Popup>
+    <div className="map-box w-full md:w-1/2 lg:w-3/5 xl:w-2/5 mx-auto md:mt-6 lg:w-4/5 xl:w-3/5">
+    <MapContainer center={fixedLocation} zoom={13} className="main-map w-full h-96 md:h-full">
+      <TileLayer
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      />
+      <Marker position={fixedLocation} icon={redIcon} eventHandlers={{ click: handleMarkerClick }}>
+        <Popup>KK Industries</Popup>
+      </Marker>
+      {userLocation && (
+        <Marker position={userLocation}>
+          <Popup>User Location</Popup>
         </Marker>
-        {userLocation && (
-          <Marker position={userLocation}>
-            <Popup>User Location</Popup>
-          </Marker>
-        )}
-      </MapContainer>
-    </div>
+      )}
+    </MapContainer>
+  </div>
+  
   );
 };
 

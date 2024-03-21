@@ -1,15 +1,15 @@
-import React from 'react'
-import footerBg from '../../assets/footerBg.jpg'
+import React from 'react';
+import footerBg from '../../assets/footerBg.jpg';
+
 const Footer = () => {
   return (
-<div className="flex flex-col pt-14 pr-7 pb-8 pl-20 mt-11 w-full bg-neutral-900 max-md:px-5 max-md:mt-10 max-md:max-w-full" 
-style={{ backgroundSize: 'cover', marginTop: '-1px'}}>
+    <div className="flex flex-col pt-14 pr-7 pb-8 pl-20 mt-11 w-full bg-neutral-900 max-md:px-5 max-md:mt-10 max-md:max-w-full" style={{ backgroundSize: 'cover', marginTop: '-1px'}}>
       <div className="max-md:max-w-full">
-        <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-          <div className="flex flex-col w-[54%] max-md:ml-0 max-md:w-full">
+        <div className="flex flex-col max-md:flex-col max-md:gap-0">
+          <div className="flex flex-col w-full max-md:ml-0 max-md:w-full">
             <div className="max-md:mt-10 max-md:max-w-full">
-              <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-                <div className="flex flex-col w-[74%] max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col max-md:flex-col max-md:gap-0">
+                <div className="flex flex-col w-full max-md:ml-0 max-md:w-full">
                   <div className="flex flex-col max-md:mt-10">
                     <img
                       loading="lazy"
@@ -30,8 +30,8 @@ style={{ backgroundSize: 'cover', marginTop: '-1px'}}>
                     />
                   </div>
                 </div>
-                <div className="flex flex-col ml-5 w-[26%] max-md:ml-0 max-md:w-full">
-                  <div className="flex flex-col grow mt-24 text-base text-neutral-500 max-md:mt-10">
+                <div className="flex flex-col ml-0 w-full max-md:ml-0 max-md:w-full">
+                  <div className="flex flex-col grow mt-5 text-base text-neutral-500 max-md:mt-10">
                     <div className="text-2xl text-center text-white">
                       Our Services
                     </div>
@@ -45,10 +45,10 @@ style={{ backgroundSize: 'cover', marginTop: '-1px'}}>
               </div>
             </div>
           </div>
-          <div className="flex flex-col ml-5 w-[46%] max-md:ml-0 max-md:w-full">
-            <div className="grow mt-24 max-md:mt-10 max-md:max-w-full">
-              <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-                <div className="flex flex-col w-[30%] max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col ml-0 w-full max-md:ml-0 max-md:w-full">
+            <div className="grow mt-5 max-md:mt-10 max-md:max-w-full">
+              <div className="flex flex-col max-md:flex-col max-md:gap-0">
+                <div className="flex flex-col w-full max-md:ml-0 max-md:w-full">
                   <div className="flex flex-col text-base text-neutral-500 max-md:mt-10">
                     <div className="text-2xl text-center text-white">
                       Useful links
@@ -60,7 +60,7 @@ style={{ backgroundSize: 'cover', marginTop: '-1px'}}>
                     <div className="mt-5 tracking-wide">Terms of service</div>
                   </div>
                 </div>
-                <div className="flex flex-col ml-5 w-[70%] max-md:ml-0 max-md:w-full">
+                <div className="flex flex-col ml-0 w-full max-md:ml-0 max-md:w-full">
                   <div className="flex flex-col grow text-sm text-white max-md:mt-10">
                     <div className="text-2xl text-center">Newsletter</div>
                     <div className="mt-7 text-base tracking-wide text-neutral-500">
@@ -84,7 +84,8 @@ style={{ backgroundSize: 'cover', marginTop: '-1px'}}>
       <div className="self-center mt-7 text-base tracking-wide text-neutral-500 max-md:max-w-full">
         @copyright 2024 Powered by Innomatrics Technologies
       </div>
-    </div>  )
-}
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;
