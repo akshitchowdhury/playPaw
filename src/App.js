@@ -8,8 +8,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Pricing from './components/Pricing/Pricing';
 import Franchise from './components/Franchise/Franchise';
 import Events from './components/Events/Events';
-import Contact from './components/Contact/Contact';
+
 import Attractions from './components/Attractions/Attractions';
+import ContactComponent from './components/Contact/ContactComponent';
 
 
 
@@ -27,7 +28,7 @@ function App() {
       <Route path='/èvents' element= {<Events/>}/>
       <Route path='/franchise' element= {<Franchise/>}/>
       <Route path='/pricing' element= {<Pricing/>}/>
-      <Route path='/contact' element= {<Contact/>}/>
+      <Route path='/contact' element= {<ContactComponent/>}/>
       
       
       </Routes>
