@@ -1,16 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Nav.css'
+import logo from '../assets/logo.jpg'
 const NAv = () => {
   return (
     <>
-<div className="flex z-10 gap-5 items-start px-20 pt-3.5 pb-7 w-full text-lg bg-fuchsia-700 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+<div className="navbar flex z-10 gap-5 items-start px-20 pt-3.5 pb-7 w-full text-lg  max-md:flex-wrap max-md:px-5 max-md:max-w-full">
       <div className="flex flex-col grow shrink-0 basis-0 w-fit max-md:max-w-full">
         <div className="flex gap-5 w-full text-fuchsia-700 whitespace-nowrap max-md:flex-wrap max-md:max-w-full">
           <img
             loading="lazy"
-            srcSet="..."
-            className="shrink-0 max-w-full aspect-[1.41] w-[113px]"
+            src= {logo}
+            className="shrink-0 max-w-full aspect-[1.41] w-[113px] " style={{borderRadius: '50%'}}
           />
           <div className="flex flex-auto gap-0 my-auto max-md:flex-wrap max-md:max-w-full">
             <div className="grow justify-center items-start px-4 py-4 bg-white rounded-md w-fit max-md:pr-5 max-md:max-w-full">
