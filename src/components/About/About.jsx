@@ -38,9 +38,9 @@ const About = () => {
     
     </div>
         </div>
-
+<div className='home2nd' style={{padding: '4%'}}>
 <Home2half/>
-
+</div>
         </>
     );
 }
