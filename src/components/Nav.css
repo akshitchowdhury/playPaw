@@ -20,5 +20,11 @@
   }
 
   .navbar {
-    background-image: linear-gradient(to right, rgb(204, 68, 204), rgb(171, 120, 228)); /* Adjust the RGB values as needed */
-}
+    background-image: linear-gradient(to right, rgb(204, 68, 204), rgb(228, 185, 120)); /* Adjust the RGB values as needed */
+    box-shadow: 0 -2px 4px rgba(255, 255, 255, 0.3), /* Highlight on top */
+              0 2px 4px rgba(0, 0, 0, 0.1);       /* Shadow at bottom */
+
+              height: 130px;
+              
+    
+  }
