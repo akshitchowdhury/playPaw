@@ -39,7 +39,7 @@ const items = [
 const Attractions = () => {
   return (
     <div className='bg-pink-300 min-h-screen flex items-center justify-center' style={{padding: '5%', backgroundImage: `url(${attractionBg})`, backgroundSize: 'cover', backgroundAttachment: 'fixed',
-    border: '3pt solid red'
+    
     }}>
 
     <div className="container mx-auto" >

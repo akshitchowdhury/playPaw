@@ -7,9 +7,9 @@ const Accordion = ({ items }) => {
   return (
     <div className="w-full " style={{padding: '4%'}} >
       {items.map((item, index) => (
-        <div key={index} className="mb-2 " style={{border: '3pt solid red', marginBottom: '4%'}}>
+        <div key={index} className="mb-2 " style={{ marginBottom: '4%'}}>
           <button
-            className="w-full  flex justify-between items-center bg-yellow-400 p-4 rounded-md focus:outline-none"
+            className="w-full  flex justify-between items-center bg-pink-300 p-4 rounded-md focus:outline-none"
             onClick={() => setOpenIndex(openIndex === index ? null : index)}
           >
              <span className="text-lg font-semibold flex items-center " style={{ marginLeft: '40%'}}>{item.title}</span>
@@ -41,7 +41,12 @@ const Accordion = ({ items }) => {
           >
             <div className=" overflow-hidden transition-all duration-200">
               <div className=" p-4 rounded-md" >
-               <div className=" flex flex-wrap " style={{padding: '5%'}}>
+               <div className=" flex flex-wrap " style={{
+  padding: '5%',
+  border: '3pt solid pink',
+  borderRadius: '10px', /* Border radius to create a cream-shaped border */
+  boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.2)' /* Light box shadow */
+}}>
     <div className="w-full md:w-1/2 md:pl-8" style={{  height: '50%', fontWeight: '600', }}>
         <p className="text-lg mb-4">At Play Paw, we believe in creating a world of fun and excitement for kids! Our playzone area is designed to be a haven of joy, where children can unleash their imagination and energy in a safe and vibrant environment.</p>
         <p className="text-lg mb-4">With colorful play structures, interactive games, and engaging activities, Play Paw is the ultimate destination for kids to laugh, play, and make new friends. Our dedicated staff ensures that every visit is filled with unforgettable moments and endless smiles.</p>
