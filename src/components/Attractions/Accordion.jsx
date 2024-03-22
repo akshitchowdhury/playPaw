@@ -10,7 +10,7 @@ const Accordion = ({ items }) => {
         <div key={index} className="mb-2 " style={{ marginBottom: '4%'}}>
           <button
             className="w-full  flex justify-between items-center bg-pink-300 p-4 rounded-md focus:outline-none"
-            onClick={() => setOpenIndex(openIndex === index ? null : index)}
+            onClick={() => setOpenIndex(openIndex === index ? null : index)} style={{marginLeft: '20%', width: '60%'}}
           >
              <span className="text-lg font-semibold flex items-center " style={{ marginLeft: '40%'}}>{item.title}</span>
             <svg

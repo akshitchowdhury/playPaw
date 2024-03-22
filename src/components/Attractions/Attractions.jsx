@@ -42,7 +42,7 @@ const Attractions = () => {
     
     }}>
 
-    <div className="container mx-auto" >
+    <div className="container mx-auto" style={{border: '3pt solid red'}} >
       <Accordion items={items} />
     </div>
   
