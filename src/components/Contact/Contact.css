@@ -69,6 +69,7 @@ textarea{
 
 .enter-name{
     transition: transform 0.6s ease, background-color 0.9s ease; 
+    background-color: inherit;
 }
 
 .enter-name:hover{
@@ -79,6 +80,7 @@ textarea{
 
 .enter-email{
     transition: transform 0.6s ease, background-color 0.9s ease; 
+    background-color: inherit;
 }
 
 .enter-email:hover{
@@ -89,6 +91,8 @@ textarea{
 
 .enter-message{
     transition: transform 0.6s ease, background-color 0.9s ease; 
+    height: 120px;
+    background-color: inherit;
 }
 
 .enter-message:hover{
@@ -97,6 +101,7 @@ textarea{
 }
 .enter-phone{
     transition: transform 0.6s ease, background-color 0.9s ease; 
+    background-color: inherit;
 }
 
 .enter-phone:hover{
@@ -108,4 +113,41 @@ textarea{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .contactContent {
+        flex-direction: column;
+    }
+}
+
+/* For mobile phones (600px and below) */
+@media only screen and (max-width: 600px) {
+    .contactContent {
+        flex-direction: column;
+    }
+
+    .map-box{
+
+        width: 220px;
+        height: 500px;
+    }
+    .form{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .contactContent {
+        flex-direction: column;
+    }
+
+    .map-box{
+
+        width: 160px;
+        height: 500px;
+    }
+    .form{
+        width: 100%;
+    }
 }

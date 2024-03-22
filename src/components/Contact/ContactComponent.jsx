@@ -67,7 +67,7 @@ const ContactComponent = forwardRef((props,ref) => {
     </div>
     <div>
       <label htmlFor="message" className="block font-semibold mb-1">Message</label>
-      <textarea id="message" ref={messageRef} name="message" rows="4" className="enter-message w-full px-4 py-2 border rounded-md" placeholder="Enter your message"></textarea>
+      <input type="text" ref={messageRef} id="name" name="name" className="enter-message w-full px-4 py-2 border rounded-md" placeholder="Type your message" />
     </div>
     <button type="submit" className="formButton text-white px-6 py-2 rounded-md ">Submit</button>
   </form>

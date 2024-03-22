@@ -74,7 +74,7 @@ export default function NAv() {
         <NavbarToggle />
       </div>
       <NavbarCollapse>
-        <Link to="/" active>
+        {/* <Link to="/" active>
           Home
         </Link>
         <Link to="/about">About</Link>
@@ -82,7 +82,19 @@ export default function NAv() {
         <Link to="/events">Events</Link>
         <Link to="/franchise">Franchise</Link>
         <Link to="/pricing">Pricing</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/contact">Contact</Link> */}
+      <Navbar.Link href="#" active>
+      <Link to="/" active>
+          Home
+        </Link>
+        </Navbar.Link>
+        <Navbar.Link href="#"> <Link to="/about">About</Link></Navbar.Link>
+        <Navbar.Link href="#"><Link to="/events">Events</Link></Navbar.Link>
+        <Navbar.Link href="#"><Link to="/franchise">Franchise</Link></Navbar.Link>
+        <Navbar.Link href="#"> <Link to="/pricing">Pricing</Link></Navbar.Link>
+        <Navbar.Link href="#"> <Link to="/contact">Contact</Link> </Navbar.Link>
+        
+      
       </NavbarCollapse>
     </Navbar>
   );
