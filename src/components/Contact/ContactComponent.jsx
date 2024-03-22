@@ -45,7 +45,7 @@ const ContactComponent = forwardRef((props,ref) => {
   <div ref={ref} className='connect-container'>
   <h2 className="connect w-full lg:w-3/4 px-4 lg:p-4 lg:h-full rounded-lg  text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Reach out to us</h2>
 
-    <div className="flex flex-col lg:flex-row sm:flex-col" >
+    <div className="contactContent flex flex-col lg:flex-row sm:flex-col" >
 
     <MapLeaflet className="map-box "/>
 

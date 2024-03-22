@@ -17,7 +17,8 @@
     box-shadow: 2px 3px 5px 5px rgb(100, 91, 228);
     /* border: 3pt solid blue; */
     margin-top: 4%;
-    margin-left: 5%;
+    width: 45%;
+    
     
 
 }
@@ -31,7 +32,7 @@ textarea{
 .map-box{
     
     /* border: 3pt solid red; */
-    width: 50%;
+    width: 40%;
     margin-left: 3%;
     margin-top: 3%;
     
@@ -101,4 +102,10 @@ textarea{
 .enter-phone:hover{
     transform: scale(1.10) translateX(3rem);
     background-color: rgb(209, 212, 14);
+}
+
+.contactContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
