@@ -3,7 +3,7 @@ import homeKid3 from '../../assets/homekid3.jpg';
 
 const Home3half = () => {
   return (
-    <div className="flex flex-col mt-32 pb-20 w-full bg-fuchsia-900 max-md:mt-10 max-md:max-w-full">
+    <div className="flex flex-col mt-32 pb-20 w-full bg-fuchsia-900 max-md:mt-10 max-md:max-w-full" style={{borderRadius: '3%', padding:'3%'}}>
       <div className="self-center mt-12 w-full max-w-[1276px] max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
