@@ -78,13 +78,14 @@ const Home = () => {
         </div>
       </div>
     </div>
-  </div>
+  
 <Home2half/>
 <Home3half/>
 {/* <Home4half/> */}
 
 <PricingComponent/>
 <ImageCardContainer/>
+</div>
 </>
 
 
