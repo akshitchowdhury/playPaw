@@ -98,7 +98,7 @@ const About = () => {
             Welcome to Play Paw!
           </h1>
           <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start" style={{ padding: '4%' }}>
-  <img src={about} alt="placeholder" className="eventImg md:w-48" style={{ height: '400px', borderRadius: '5%', marginRight: '4%' }} />
+  <img src={about} alt="placeholder" className="eventImg md:w-full" style={{ height: '400px', borderRadius: '5%', marginRight: '4%', width:'100%' }} />
   <p className="paraText bubblegum-sans-regular text-lg mb-2 md:mb-4">
     At Play Paw, we believe in creating a world of fun and excitement for kids! Our playzone area is designed to be a haven of joy, where children can unleash their imagination and energy in a safe and vibrant environment.
     <br/><br/>
