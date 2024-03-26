@@ -1,10 +1,20 @@
 .pricing1{
-    
+    border-radius: 5%;
     padding: 3%;
 }
 .pricing2{
+    border-radius: 5%;
     padding: 3%;
 }
 .pricing3{
+    border-radius: 5%;
     padding: 3%;
+}
+
+button{
+    border: 2pt solid black;
+}
+
+button p{
+    color: red;
 }
