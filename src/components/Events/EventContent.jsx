@@ -1,8 +1,8 @@
 import React from "react";
 
-import event1 from "../../assets/event1.png";
-import event2 from "../../assets/event2.png";
-import event3 from "../../assets/event3.png";
+import event1 from "../../assets/homekid1.jpg";
+import event2 from "../../assets/homekid2a.jpg";
+import event3 from "../../assets/homekid2c.jpg";
 
 import './EventContent.css'
 
