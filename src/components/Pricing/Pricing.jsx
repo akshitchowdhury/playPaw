@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Pricing.css'
+import PricingComponent from './PricingComponent';
 const Pricing = () => {
   return (
     <div className="py-8 px-4 lg:px-16">
@@ -63,6 +64,10 @@ const Pricing = () => {
         </div>
       </div>
     </div>
+
+    <PricingComponent/>
+    
+
   </div>
 );
 }
