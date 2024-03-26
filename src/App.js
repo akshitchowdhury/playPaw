@@ -7,10 +7,11 @@ import NAv from './components/NAv';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Pricing from './components/Pricing/Pricing';
 import Franchise from './components/Franchise/Franchise';
-import Events from './components/Events/Events';
+
 
 import Attractions from './components/Attractions/Attractions';
 import ContactComponent from './components/Contact/ContactComponent';
+import Events from './components/Events/Events';
 
 
 
@@ -25,7 +26,7 @@ function App() {
       <Route path='/' element= {<Home/>}/>
       <Route path='/about' element= {<About/>}/>
       <Route path='/attractions' element= {<Attractions/>}/>
-      <Route path='/èvents' element= {<Events/>}/>
+      <Route path='/events' element= {<Events/>}/>
       <Route path='/franchise' element= {<Franchise/>}/>
       <Route path='/pricing' element= {<Pricing/>}/>
       <Route path='/contact' element= {<ContactComponent/>}/>

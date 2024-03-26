@@ -1,7 +1,7 @@
 .block{
-
-    /* border: 3pt solid red; */
-    padding: 5%;
+/* 
+    border: 3pt solid red; */
+    padding: 2%;
 }
 
 .content{
@@ -10,7 +10,7 @@
 
 .Icontainer{
     padding: 5%;
-    margin-top: -17%;
+    margin-top: -23%;
 }
 .Icard{
     transition: transform 0.6s ease,
