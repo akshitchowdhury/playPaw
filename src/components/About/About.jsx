@@ -92,7 +92,7 @@ const About = () => {
 
       <div className="aboutContent">
       <h1
-            className="text-3xl font-bold mb-4 text-fuchsia-700"
+            className="bubblegum-sans-regular text-3xl font-bold mb-4 text-fuchsia-700"
             style={{ marginTop: "6%" }}
           >
             Welcome to Play Paw!
