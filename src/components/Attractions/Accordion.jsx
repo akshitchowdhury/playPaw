@@ -47,7 +47,7 @@ const Accordion = ({ items }) => {
   borderRadius: '10px', /* Border radius to create a cream-shaped border */
   boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.2)' /* Light box shadow */
 }}>
-    <div className="w-full md:w-1/2 md:pl-8" style={{  height: '50%', fontWeight: '600', display: 'flex', flexDirection:'row' }}>
+    <div className="w-full md:w-full md:pl-8" style={{  height: '50%', fontWeight: '600', display: 'flex', flexDirection:'row' }}>
         <p className="text-lg mb-4">At Play Paw, we believe in creating a world of fun and excitement for kids! Our playzone area is designed to be a haven of joy, where children can unleash their imagination and energy in a safe and vibrant environment.
         With colorful play structures, interactive games, and engaging activities, Play Paw is the ultimate destination for kids to laugh, play, and make new friends. Our dedicated staff ensures that every visit is filled with unforgettable moments and endless smiles.
         Whether it's a birthday party, a family outing, or just a day of fun, Play Paw is the perfect place for kids to explore, learn, and grow. Join us today and let the adventure begin!</p>
