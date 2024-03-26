@@ -61,16 +61,16 @@
 import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle, Button } from 'flowbite-react';
 import logo from '../assets/logo.jpg'
 import { Link } from 'react-router-dom';
-
+import './Nav.css'
 export default function NAv() {
   return (
-    <Navbar fluid rounded style={{height: '100px'}}>
+    <Navbar className='navbar' fluid rounded style={{height: '100px'}}>
       <NavbarBrand href="https://flowbite-react.com">
         <img src={logo} className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite React</span>
       </NavbarBrand>
       <div className="flex md:order-2">
-        <Button>Get started</Button>
+        <Button><Link to='/contact'>Get a Quote</Link></Button>
         <NavbarToggle />
       </div>
       <NavbarCollapse>
@@ -89,6 +89,7 @@ export default function NAv() {
         </Link>
         </Navbar.Link>
         <Navbar.Link href="#"> <Link to="/about">About</Link></Navbar.Link>
+        <Navbar.Link href="#"> <Link to="/attractions">Attractions</Link></Navbar.Link>
         <Navbar.Link href="#"><Link to="/events">Events</Link></Navbar.Link>
         <Navbar.Link href="#"><Link to="/franchise">Franchise</Link></Navbar.Link>
         <Navbar.Link href="#"> <Link to="/pricing">Pricing</Link></Navbar.Link>
