@@ -14,7 +14,7 @@ const Pricing = () => {
     
     Play Paws
     </h2>
-    <p className="text-lg lg:text-xl text-gray-800 text-center mb-12">
+    <p className="bubblegum-sans-regular text-lg lg:text-xl text-blue-600 text-center mb-12" style={{fontSize: '1.6rem'}}>
       Explore our paws-itively amazing pricing plans tailored for boundless joy in our indoor play paradises. Enjoy more playtime for less with our flexible and budget-friendly packages.
     </p>
    
