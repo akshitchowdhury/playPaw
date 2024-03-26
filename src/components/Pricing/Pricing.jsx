@@ -5,7 +5,7 @@ import ImageCardContainer from './ImageCardContainer';
 
 const Pricing = () => {
   return (
-    <div className="prcingMain py-8 px-4 lg:px-16" >
+    <div className="prcingMain py-8 px-4 lg:px-16"  style={{padding: '5%'}}>
     <h2 className="text-3xl lg:text-4xl font-bold text-center text-indigo-600 mb-8">
       Unleash Tail-Wagging Fun with Play Paws!
     </h2>

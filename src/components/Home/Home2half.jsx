@@ -23,7 +23,7 @@ const Home2half = () => {
               className="aspect-square w-[65px]"
               alt="Bus Service"
             />
-            <div className="bubblegum-sans-regular mt-5 text-2xl font-semibold tracking-wider">Bus Service</div>
+            <div className="bubblegum-sans-regular mt-5 text-2xl font-semibold tracking-wider">Birthday Celebration</div>
             <div className="mt-5 text-base tracking-wide">
               Ubiquitous models rather than parallel initiatives. Seamlessly reinvent success.
             </div>
@@ -37,7 +37,7 @@ const Home2half = () => {
               className="aspect-square w-[65px]"
               alt="Sports Training"
             />
-            <div className="bubblegum-sans-regular mt-5 text-2xl font-semibold tracking-wider">Sports Training</div>
+            <div className="bubblegum-sans-regular mt-5 text-2xl font-semibold tracking-wider">Event Parties</div>
             <div className="mt-5 text-base tracking-wide">
               Ubiquitous models rather than parallel initiatives. Seamlessly reinvent success.
             </div>
@@ -51,7 +51,7 @@ const Home2half = () => {
               className="aspect-square w-[65px]"
               alt="Music Training"
             />
-            <div className="bubblegum-sans-regular mt-5 text-2xl font-semibold tracking-wider">Music Training</div>
+            <div className="bubblegum-sans-regular mt-5 text-2xl font-semibold tracking-wider">Kitty Parties</div>
             <div className="mt-5 text-base tracking-wide">
               Ubiquitous models rather than parallel initiatives. Seamlessly reinvent success.
             </div>
@@ -65,7 +65,7 @@ const Home2half = () => {
               className="aspect-square w-[65px]"
               alt="Best Teachers"
             />
-            <div className="bubblegum-sans-regular mt-5 text-2xl font-semibold tracking-wider">Best Teachers</div>
+            <div className="bubblegum-sans-regular mt-5 text-2xl font-semibold tracking-wider">Cafe</div>
             <div className="mt-5 text-base tracking-wide">
               Ubiquitous models rather than parallel initiatives. Seamlessly reinvent success.
             </div>

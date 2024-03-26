@@ -1,12 +1,14 @@
-
+/* 
 .about1 {
-    background-image: linear-gradient(to right, rgb(255, 229, 0), rgb(171, 120, 228)); /* Adjust the RGB values as needed */
+    background-image: linear-gradient(to right, rgb(255, 229, 0), rgb(171, 120, 228)); 
+    padding: 3%;
 }
 
 .content{
     display: flex;
 
     flex-direction: row;
+    border: 3p solid purple;
 
        
 }
@@ -14,4 +16,25 @@
 .para{
 
     margin-top: 20%;
+} */
+
+
+.aboutContent{
+    padding: 5%;
+    background-image: linear-gradient(to right, rgb(241, 241, 239), rgb(240, 14, 146)); 
 }
+
+.home2nd{
+    background-image: linear-gradient(to right, rgb(241, 241, 239), rgb(240, 14, 146));
+}
+
+.paraText{
+    font-size: larger;
+    
+    color: rgb(31, 29, 29);
+    
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+

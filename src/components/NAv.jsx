@@ -91,7 +91,7 @@ export default function NAv() {
         <Navbar.Link href="#"> <Link to="/about">About</Link></Navbar.Link>
         <Navbar.Link href="#"> <Link to="/attractions">Attractions</Link></Navbar.Link>
         <Navbar.Link href="#"><Link to="/events">Events</Link></Navbar.Link>
-        <Navbar.Link href="#"><Link to="/franchise">Franchise</Link></Navbar.Link>
+        {/* <Navbar.Link href="#"><Link to="/franchise">Franchise</Link></Navbar.Link> */}
         <Navbar.Link href="#"> <Link to="/pricing">Pricing</Link></Navbar.Link>
         <Navbar.Link href="#"> <Link to="/contact">Contact</Link> </Navbar.Link>
         

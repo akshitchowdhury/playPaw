@@ -61,7 +61,7 @@ const ImageCardContainer = () => {
     <>   
     <div className="block">
     <div className="content">
-    <div className="flex flex-col items-center justify-center h-screen" style={{marginLeft: '30%'}}>
+    <div className="flex flex-col items-center justify-center h-screen" style={{marginLeft: '5%'}}>
     <h1 className="text-3xl md:text-4xl lg:text-5xl text-center font-bold">Take a closer look</h1>
     <h4 className="text-lg md:text-xl lg:text-2xl text-center">Join us for these exciting events. Hurry, spaces fill up fast!</h4>
 </div>
