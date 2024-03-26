@@ -1,6 +1,8 @@
 import React from 'react';
 import './PricingMain.css'
 import PricingComponent from './PricingComponent';
+import ImageCardContainer from './ImageCardContainer';
+
 const Pricing = () => {
   return (
     <div className="prcingMain py-8 px-4 lg:px-16" >
@@ -12,8 +14,11 @@ const Pricing = () => {
     </p>
    
 
+
     <PricingComponent/>
     
+   
+    <ImageCardContainer />
 
   </div>
 );
