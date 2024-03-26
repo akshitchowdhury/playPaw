@@ -1,11 +1,16 @@
 import React from 'react'
 
 import homeKid from '../../assets/homekid1.jpg'
+import homeKid2 from '../../assets/abt1.png'
+import homeKid3 from '../../assets/abt2.png'
+import homeKid4 from '../../assets/event1.png'
 
 import './Home.css'
 import Home2half from './Home2half'
 import Home3half from './Home3half'
-import Home4half from './Home4half'
+import PricingComponent from '../Pricing/PricingComponent'
+import ImageCardContainer from '../Pricing/ImageCardContainer'
+// import Home4half from './Home4half'
 
 
 const Home = () => {
@@ -46,7 +51,7 @@ const Home = () => {
               <div className="flex flex-col ml-5 w-[44%] max-md:ml-0 max-md:w-full">
                 <img
                   loading="lazy"
-                  src={homeKid}
+                  src={homeKid2}
                   className="mt-3.5 w-full aspect-[1.49] max-md:mt-10"
                 />
               </div>
@@ -57,14 +62,14 @@ const Home = () => {
               <div className="flex flex-col w-[30%] max-md:ml-0 max-md:w-full">
                 <img
                   loading="lazy"
-                  src={homeKid}
+                  src={homeKid3}
                   className="shrink-0 mt-4 max-w-full aspect-[0.88] w-[155px] max-md:mt-8"
                 />
               </div>
               <div className="flex flex-col ml-5 w-[70%] max-md:ml-0 max-md:w-full">
                 <img
                   loading="lazy"
-                  src= {homeKid}
+                  src= {homeKid4}
                   className="grow w-full aspect-[1.49] max-md:mt-3.5"
                 />
               </div>
@@ -76,7 +81,10 @@ const Home = () => {
   </div>
 <Home2half/>
 <Home3half/>
-<Home4half/>
+{/* <Home4half/> */}
+
+<PricingComponent/>
+<ImageCardContainer/>
 </>
 
 
