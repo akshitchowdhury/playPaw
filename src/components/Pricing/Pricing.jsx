@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './Pricing.css'
 import PricingComponent from './PricingComponent';
 const Pricing = () => {
   return (
