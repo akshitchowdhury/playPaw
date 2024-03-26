@@ -1,3 +1,21 @@
 .events{
     background-image: linear-gradient(to right,rgb(241, 241, 239), rgb(225, 0, 255) );
 }
+
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 5rem;
+  }
+
+
+ 
+.dosis-custom {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-size: 2rem;
+  font-style: normal;
+}
+  

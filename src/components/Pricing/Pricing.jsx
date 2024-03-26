@@ -6,8 +6,13 @@ import ImageCardContainer from './ImageCardContainer';
 const Pricing = () => {
   return (
     <div className="prcingMain py-8 px-4 lg:px-16"  style={{padding: '5%'}}>
-    <h2 className="text-3xl lg:text-4xl font-bold text-center text-indigo-600 mb-8">
-      Unleash Tail-Wagging Fun with Play Paws!
+    <h2 className="londrina-sketch-regular tracking-widest border-fuchsia-900 text-blue-900">
+      Unleash Tail-Wagging Fun with 
+    </h2>
+    <br />
+    <h2 className="londrina-sketch-regular tracking-widest border-fuchsia-900 text-fuchsia-900">
+    
+    Play Paws
     </h2>
     <p className="text-lg lg:text-xl text-gray-800 text-center mb-12">
       Explore our paws-itively amazing pricing plans tailored for boundless joy in our indoor play paradises. Enjoy more playtime for less with our flexible and budget-friendly packages.
