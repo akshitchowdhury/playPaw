@@ -116,7 +116,7 @@ const About = () => {
     <br/><br/>
     Whether it's a birthday party, a family outing, or just a day of fun, Play Paw is the perfect place for kids to explore, learn, and grow. Join us today and let the adventure begin!
   </p>
-  <img src={about2} alt="placeholder" className="eventImg md:w-48" style={{ height: '400px' }} />
+  <img src={about2} alt="placeholder" className="eventImg md:w-full" style={{ height: '400px',borderRadius: '5%', marginLeft: '4%', width:'100%' }} />
 </div>
 
         </div>
