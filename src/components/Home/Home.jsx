@@ -24,7 +24,7 @@ const Home = () => {
             Welcome to Kiddy Rainbow Slime CO.
           </div> */}
           <div className="londrina-sketch-regular tracking-widest border-fuchsia-900 border-solid border-[3px] max-md:max-w-full max-md:text-4xl">
-            Welcome to Kiddy Rainbow Slime CO.
+            Welcome to Play Paws..
           </div>
           <div className="mystery-quest-regular mt-5 text-lg text-fuchsia-950 max-md:max-w-full ">
             Formulate innovative web-readiness and installed base ideas.
