@@ -2,7 +2,7 @@
     transition: transform 0.3s ease, color 0.5s ease; /* Added color transition */
     font-family: sans-serif;
     font-weight: 400;
-    font-size: smaller;
+    font-size: larger;
   }
   
   .navbar-link:hover {
@@ -30,6 +30,33 @@
     
   }
 
+  @media screen and (max-width: 768px) {
+    .NavbarCollapse {
+      position: absolute; /* Position the dropdown absolutely */
+       top: 18%;/* Place the dropdown below the button */
+      left: 0; /* Align the dropdown with the left side */
+      width: 10%; /* Make the dropdown cover the full width */
+      z-index: 999; /* Ensure the dropdown appears above other elements */
+      background-color: inherit; /* Background color of the dropdown */
+      border: 1px solid #ccc; /* Optional: Add a border around the dropdown */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for depth */
+      padding-left: 73%;
+    }
+
+    .navbar-link {
+      transition: transform 0.3s ease, color 0.5s ease; /* Added color transition */
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: large;
+      color: black;
+    }
+  
+    .navbar-link:hover {
+      transform: scale(1.2); /* Enlarge the link on hover */
+      color: rgb(48, 104, 187); /* New color */
+    }
+    
+  }
 
   
   

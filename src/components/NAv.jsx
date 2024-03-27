@@ -73,7 +73,7 @@ export default function NAv() {
         <Button><Link to='/contact'>Get a Quote</Link></Button>
         <NavbarToggle />
       </div>
-      <NavbarCollapse>
+      <NavbarCollapse className='NavbarCollapse'>
         {/* <Link to="/" active>
           Home
         </Link>
@@ -83,17 +83,17 @@ export default function NAv() {
         <Link to="/franchise">Franchise</Link>
         <Link to="/pricing">Pricing</Link>
         <Link to="/contact">Contact</Link> */}
-      <Navbar.Link href="#" active>
-      <Link to="/" active>
+      <Navbar.Link href="#" active >
+      <Link className='navbar-link' to="/" active>
           Home
         </Link>
         </Navbar.Link>
-        <Navbar.Link href="#"> <Link to="/about">About</Link></Navbar.Link>
-        <Navbar.Link href="#"> <Link to="/attractions">Attractions</Link></Navbar.Link>
-        <Navbar.Link href="#"><Link to="/events">Events</Link></Navbar.Link>
+        <Navbar.Link href="#" > <Link className='navbar-link' to="/about">About</Link></Navbar.Link>
+        <Navbar.Link href="#"> <Link className='navbar-link' to="/attractions">Attractions</Link></Navbar.Link>
+        <Navbar.Link href="#" ><Link className='navbar-link' to="/events">Events</Link></Navbar.Link>
         {/* <Navbar.Link href="#"><Link to="/franchise">Franchise</Link></Navbar.Link> */}
-        <Navbar.Link href="#"> <Link to="/pricing">Pricing</Link></Navbar.Link>
-        <Navbar.Link href="#"> <Link to="/contact">Contact</Link> </Navbar.Link>
+        <Navbar.Link href="#"> <Link className='navbar-link' to="/pricing">Pricing</Link></Navbar.Link>
+        <Navbar.Link href="#"> <Link className='navbar-link' to="/contact">Contact</Link> </Navbar.Link>
         
       
       </NavbarCollapse>
