@@ -1,0 +1,61 @@
+.Carousel{
+
+    margin-top: -5%;
+width: 100%;
+height: auto; /* Adjust height to auto for responsiveness */
+
+border-radius: 250px 750px 250px 750px /
+                 750px 250px 750px 250px;
+  animation: wobble 9s ease-in-out alternate infinite;
+
+
+display: flex;
+
+background-size: cover;
+background-position: center;
+animation: slideshow 20s infinite; /* Adjust timing and iteration as needed */
+
+min-height: 80vh; /* Ensure minimum height of 100vh */
+display: flex;
+right: 0;
+ /* Add padding for spacing */
+}
+
+@keyframes wobble {
+    0% {
+      border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
+    }
+    25% {
+      border-radius: 500px 650px 300px 700px / 400px 600px 500px 300px;
+    }
+    50% {
+      border-radius: 750px 550px 350px 750px / 350px 750px 550px 450px;
+    }
+    
+    100% {
+      border-radius: 750px 250px 750px 250px / 250px 750px 250px 750px;
+    }
+  }
+  
+
+
+@keyframes slideshow {
+    0% {
+        background-image: url('../../assets/11.jpeg');
+    }
+    20% {
+        background-image: url('../../assets/12.jpeg');
+    }
+    40% {
+        background-image: url('../../assets/15.jpeg');
+    }
+    60% {
+        background-image: url('../../assets/17.jpeg');
+    }
+    80% {
+        background-image: url('../../assets/18.jpeg');
+    }
+    100% {
+        background-image: url('../../assets/2.jpeg') /* Loop back to the first image */
+    }
+}

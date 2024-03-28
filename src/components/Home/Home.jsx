@@ -13,6 +13,7 @@ import PricingComponent from '../Pricing/PricingComponent'
 import ImageCardContainer from '../Pricing/ImageCardContainer'
 import PlayButton from './PlayButton'
 import WhyUs from './WhyUs'
+import HomeCarousel from './HomeCarousel'
 // import Home4half from './Home4half'
 
 
@@ -26,6 +27,9 @@ const Home = () => {
   return (
     <>
     <div className="home overflow-hidden px-20 py-20 -mt-5 w-full fill-yellow-400 max-md:px-5 max-md:max-w-full">
+    
+    <HomeCarousel/>
+    
     
     <div className="bubblegum-sans-regular self-center mt-8 text-4xl tracking-wider text-center text-fuchsia-900 max-w-[90%] mx-auto" style={{fontWeight: '700', fontSize: '3rem', lineHeight: '70px', textAlign: 'left'}}>
     Step into the World of Playful Pawws: Where Imagination Takes the Lead!
