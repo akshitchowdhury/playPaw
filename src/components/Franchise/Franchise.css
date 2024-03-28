@@ -11,3 +11,23 @@
     padding: 5%;
     background-image: linear-gradient(to right, rgb(184, 95, 95), rgb(243, 243, 242));
 }
+
+
+
+/* .bubblegum-sans-regular {
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+  } */
+
+  .franchiseText{
+
+    font-weight: 700;
+    font-family: cursive;
+
+    font-size: large;
+    
+  }
+
+  
