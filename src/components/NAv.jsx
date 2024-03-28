@@ -62,6 +62,8 @@ import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle, Button }
 import logo from '../assets/logo.jpg'
 import { Link } from 'react-router-dom';
 import './Nav.css'
+import DropdownBasicExample from './DropdownButton';
+
 export default function NAv() {
   return (
     <Navbar className='navbar' fluid rounded style={{height: '100px'}}>
@@ -91,9 +93,13 @@ export default function NAv() {
         <Navbar.Link href="#" > <Link className='navbar-link' to="/about">About</Link></Navbar.Link>
         <Navbar.Link href="#"> <Link className='navbar-link' to="/attractions">Attractions</Link></Navbar.Link>
         <Navbar.Link href="#" ><Link className='navbar-link' to="/events">Events</Link></Navbar.Link>
+        <Navbar.Link href="#" >
+        <DropdownBasicExample /></Navbar.Link>
         {/* <Navbar.Link href="#"><Link to="/franchise">Franchise</Link></Navbar.Link> */}
         <Navbar.Link href="#"> <Link className='navbar-link' to="/pricing">Pricing</Link></Navbar.Link>
         <Navbar.Link href="#"> <Link className='navbar-link' to="/contact">Contact</Link> </Navbar.Link>
+        
+        
         
       
       </NavbarCollapse>

@@ -4,6 +4,13 @@
     font-weight: 700;
     font-size: larger;
   }
+
+  .dropdown{
+    transition: transform 0.3s ease, color 0.5s ease; /* Added color transition */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: larger;
+  }
   
   .navbar-link:hover {
     transform: scale(1.2); /* Enlarge the link on hover */

@@ -1,6 +1,7 @@
 .home{
-    background-image: url('../../assets/homeBg.jpg');
+    /* background-image: url('../../assets/homeBg2.jpg'); */
     background-attachment: fixed;
+    background-image: linear-gradient(to right, rgb(243, 15, 175), rgb(243, 243, 242));
 }
 
 .mystery-quest-regular {
