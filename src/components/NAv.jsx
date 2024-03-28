@@ -69,7 +69,7 @@ export default function NAv() {
     <Navbar className='navbar' fluid rounded style={{height: '100px'}}>
       <NavbarBrand href="https://flowbite-react.com">
         <img src={logo} className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
-        <span className="bubblegum-sans-regular self-center whitespace-nowrap text-xl text-fuchsia-400 font-semibold dark:text-white" >Play Pawws</span>
+        <span className="bubblegum-sans-regular self-center whitespace-nowrap text-xl text-fuchsia-900 font-semibold dark:text-white" >Play Pawws</span>
       </NavbarBrand>
       <div className="flex md:order-2 ">
         <Button ><Link to='/contact' >Get a Quote</Link></Button>
