@@ -1,0 +1,13 @@
+.schoolbell-regular {
+    font-family: "Schoolbell", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4rem;
+  }
+  
+
+.franchise {
+
+    padding: 5%;
+    background-image: linear-gradient(to right, rgb(184, 95, 95), rgb(243, 243, 242));
+}
