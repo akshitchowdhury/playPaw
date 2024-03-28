@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { TERipple } from "tw-elements-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaw } from "@fortawesome/free-solid-svg-icons";
 
 export default function ButtonWithRipple() {
   return (
@@ -22,7 +24,9 @@ export default function ButtonWithRipple() {
             >
               {" "}
               Join Us now!{" "}
+              
             </span>
+            
           </Link>
         </button>
       </TERipple>

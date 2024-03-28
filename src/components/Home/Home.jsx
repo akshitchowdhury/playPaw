@@ -12,10 +12,17 @@ import Home3half from './Home3half'
 import PricingComponent from '../Pricing/PricingComponent'
 import ImageCardContainer from '../Pricing/ImageCardContainer'
 import PlayButton from './PlayButton'
+import WhyUs from './WhyUs'
 // import Home4half from './Home4half'
 
 
+
 const Home = () => {
+
+
+
+
+  
   return (
     <>
     <div className="home overflow-hidden px-20 py-20 -mt-5 w-full fill-yellow-400 max-md:px-5 max-md:max-w-full">
@@ -48,8 +55,10 @@ const Home = () => {
   </p>
 </div>
   
+<WhyUs/>
+
 <Home2half/>
-<Home3half/>
+{/* <Home3half/> */}
 {/* <Home4half/> */}
 {/* 
 <PricingComponent/> */}
