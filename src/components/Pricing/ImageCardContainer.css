@@ -13,10 +13,30 @@
     margin-top: -23%;
 }
 .Icard{
-    transition: transform 0.6s ease,
+    transition: transform 0.6s ease;
      /* Added ease for background-color */
-
+    
+     border-radius: 250px 750px 250px 750px /
+                 750px 250px 750px 250px;
+  animation: wobble 9s ease-in-out alternate infinite;
 }
+
+@keyframes wobble {
+    0% {
+      border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
+    }
+    25% {
+      border-radius: 500px 650px 300px 700px / 400px 600px 500px 300px;
+    }
+    50% {
+      border-radius: 750px 550px 350px 750px / 350px 750px 550px 450px;
+    }
+    
+    100% {
+      border-radius: 750px 250px 750px 250px / 250px 750px 250px 750px;
+    }
+  }
+  
 
 .Icard:hover {
     transform: scale(1.06);

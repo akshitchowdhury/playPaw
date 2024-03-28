@@ -34,14 +34,15 @@ const Home = () => {
 
     <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start">
 
-  <p className="paraText bubblegum-sans-regular md:ml-4 mb-4 md:mb-0" style={{ marginRight: '4%' }}>
+  <p className="paraText bubblegum-sans-regular md:ml-4 mb-4 md:mb-0 text-pink-500" style={{ marginRight: '4%' }}>
     At Play Paw, we believe in creating a world of fun and excitement for kids! Our playzone area is designed to be a haven of joy, where children can unleash their imagination and energy in a safe and vibrant environment.
     <br/><br/>
     With colorful play structures, interactive games, and engaging activities, Play Paw is the ultimate destination for kids to laugh, play, and make new friends. Our dedicated staff ensures that every visit is filled with unforgettable moments and endless smiles.
     <br/><br/>
    <PlayButton/>
   </p>
-  <img src={homeKid} alt="placeholder" className="eventImg md:w-full" style={{ height: '400px',border: 'none', marginLeft: '4%', width:'100%' }} />
+  <img src={homeKid} alt="placeholder" className="eventImg md:w-full" style={{ height: '400px',border: 'none', marginLeft: '4%', 
+  width:'100%', boxShadow: '0 6px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1)' }} />
 </div>
 {/* 
 <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start" style={{ padding: '4%' }}>

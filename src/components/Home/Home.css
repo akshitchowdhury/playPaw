@@ -1,6 +1,6 @@
 .home{
     /* background-image: url('../../assets/homeBg2.jpg'); */
-    background-attachment: fixed;
+    margin-top: 3px;
     background-image: linear-gradient(to right, rgb(231, 171, 213), rgb(243, 243, 242));
 }
 

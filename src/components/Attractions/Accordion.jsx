@@ -160,7 +160,7 @@ const Accordion = ({ items }) => {
                     padding: '5%'
                   }}
                 >
-                  <p className="text-lg mb-4 md:w-2/3 md:pr-8">{item.desc}</p>
+                  <p className="text-lg mb-4 md:w-2/3 md:pr-8 text-pink-600" style={{fontFamily: 'cursive', fontSize:'1.5rem'}}>{item.desc}</p>
                   <img
                     src={item.image}
                     alt="Play Paw Logo"
