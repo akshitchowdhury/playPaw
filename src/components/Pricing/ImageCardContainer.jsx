@@ -73,18 +73,7 @@ const ImageCardContainer = () => {
       imageUrl: c9,
       
     },
-    {
-      imageUrl: c10,
-      
-    },
-    {
-      imageUrl: c11,
-      
-    },
-    {
-      imageUrl: c12,
-      
-    },
+
   ];
 
   return (
