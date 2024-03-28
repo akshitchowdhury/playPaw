@@ -37,6 +37,13 @@
 
     font-size: large;
     
+    transition: transform 1s ease;
+  }
+
+  .franchiseText:hover{
+    transform: scale(1.2); /* Enlarge the link on hover */
+    background-image: linear-gradient(to left, rgb(198, 101, 228), rgb(114, 140, 197));
+    /* color: rgb(48, 104, 187); */
   }
 
   
