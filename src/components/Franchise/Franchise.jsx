@@ -61,7 +61,7 @@ const Franchise = () => {
           style={{
             height: "500px",
             borderRadius: "5%",
-            marginLeft: "40%",
+            marginLeft: "4%",
             width: "500px",
             cursor: "pointer",
           }}
@@ -82,7 +82,7 @@ const Franchise = () => {
           style={{
             height: "500px",
             borderRadius: "5%",
-            marginRight: "40%",
+            marginRight: "4%",
             width: "500px",
             cursor: "pointer",
           }}
