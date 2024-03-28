@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from "../Attractions/Accordion";
-import i1 from "../../assets/1.jpeg";
+import i1 from "../../assets/4.jpeg";
 import i2 from "../../assets/2.jpeg";
 import i3 from "../../assets/5.jpeg";
 import i4 from "../../assets/11.jpeg";

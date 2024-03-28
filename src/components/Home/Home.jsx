@@ -43,7 +43,7 @@ const Home = () => {
   </p>
   <img src={homeKid} alt="placeholder" className="eventImg md:w-full" style={{ height: '400px',border: 'none', marginLeft: '4%', width:'100%' }} />
 </div>
-
+{/* 
 <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start" style={{ padding: '4%' }}>
   <img src={homeKid2} alt="placeholder" className="eventImg md:w-full" style={{ height: '400px', border: 'none', marginRight: '4%', width:'100%' }} />
   <p className="paraText bubblegum-sans-regular text-lg mb-2 md:mb-4">
@@ -53,7 +53,7 @@ const Home = () => {
     <br/><br/>
     Whether it's a birthday party, a family outing, or just a day of fun, Play Paw is the perfect place for kids to explore, learn, and grow. Join us today and let the adventure begin!
   </p>
-</div>
+</div> */}
   
 <WhyUs/>
 

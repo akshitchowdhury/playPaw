@@ -111,10 +111,10 @@ const Accordion = ({ items }) => {
     <div className="w-full" style={{ padding: "4%" }}>
       {items.map((item, index) => (
         <div key={index} className="mb-2">
-          <button
-            className="w-full flex justify-between items-center bg-pink-300 p-4 rounded-md focus:outline-none"
-            onClick={() => setOpenIndex(openIndex === index ? null : index)}
-          >
+        <button
+  className="w-full flex justify-between items-center bg-pink-300 p-4 rounded-md focus:outline-none transition-colors duration-700 hover:bg-white"
+  onClick={() => setOpenIndex(openIndex === index ? null : index)}
+>
             <span className="text-lg font-semibold text-fuchsia-700">{item.title}</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
