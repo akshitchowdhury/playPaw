@@ -10,9 +10,18 @@
 
     padding: 5%;
     background-image: linear-gradient(to right, rgb(184, 95, 95), rgb(243, 243, 242));
+    animation: slideInFromLeft 2s linear backwards;
 }
 
-
+@keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
 
 /* .bubblegum-sans-regular {
     font-family: "Bubblegum Sans", sans-serif;

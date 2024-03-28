@@ -27,15 +27,7 @@ const Franchise = () => {
         className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
         style={{ padding: "4%" }}
       >
-        <Transition
-          show={showParagraph1}
-          enter="transition ease-out duration-1000"
-          enterFrom="opacity-0"
-          enterTo="opacity-100"
-          leave="transition ease-in duration-500"
-          leaveFrom="opacity-100"
-          leaveTo="opacity-0"
-        >
+        
           <p
             className="franchiseText text-fuchsia-700 md:ml-4 mb-4 md:mb-0"
             style={{
@@ -44,7 +36,9 @@ const Franchise = () => {
               backgroundColor: 'inherit',
               boxShadow: "2px 2px 5px rgba(0, 0, 0, 0.2)",
               padding: '5%',
+              cursor: "pointer"
             }}
+            onClick={toggleParagraph1}
           >
             Step into the vibrant world of Play Pawws, where every moment is a
             burst of excitement and imagination! Since our grand opening in 2023,
@@ -53,8 +47,16 @@ const Franchise = () => {
             Premium Indoor SoftPlay Club, meticulously crafted to whisk children
             away on a journey of wonder and fun.
           </p>
-        </Transition>
-        <img
+        
+        <Transition
+          show={showParagraph1}
+          enter="transition ease-out duration-1000"
+          enterFrom="opacity-0"
+          enterTo="opacity-100"
+          leave="transition ease-in duration-500"
+          leaveFrom="opacity-100"
+          leaveTo="opacity-0"
+        > <img
           src={franchise}
           alt="placeholder"
           className="eventImg md:w-full"
@@ -62,11 +64,12 @@ const Franchise = () => {
             height: "500px",
             borderRadius: "5%",
             marginLeft: "4%",
-            width: "500px",
-            cursor: "pointer",
+            width: "350rem",
+            
           }}
-          onClick={toggleParagraph1}
+          
         />
+        </Transition>
       </div>
 
       <br />
@@ -75,20 +78,8 @@ const Franchise = () => {
         className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
         style={{ padding: "4%" }}
       >
-        <img
-          src={franchise2}
-          alt="placeholder"
-          className="eventImg md:w-full"
-          style={{
-            height: "500px",
-            borderRadius: "5%",
-            marginRight: "4%",
-            width: "500px",
-            cursor: "pointer",
-          }}
-          onClick={toggleParagraph2}
-        />
-        <Transition
+      
+      <Transition
           show={showParagraph2}
           enter="transition ease-out duration-1000"
           enterFrom="opacity-0"
@@ -97,6 +88,19 @@ const Franchise = () => {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
+        <img
+          src={franchise2}
+          alt="placeholder"
+          className="eventImg md:w-full"
+          style={{
+            height: "500px",
+            borderRadius: "5%",
+            marginRight: "4%",
+            width: "350rem",
+            
+          }}
+          
+        />  </Transition>
           <p
             className="franchiseText text-fuchsia-700 bubblegum-sans-regular md:ml-4 mb-4 md:mb-0"
             style={{
@@ -104,7 +108,9 @@ const Franchise = () => {
               boxShadow: "2px 2px 5px rgba(0, 0, 0, 0.2)",
               borderRadius: "10px",
               padding: '5%',
+              cursor: "pointer"
             }}
+            onClick={toggleParagraph2}
           >
             At Play Pawws, we're passionate about curating an experience that's as
             dynamic as it is delightful. Say goodbye to screens and hello to a
@@ -113,7 +119,7 @@ const Franchise = () => {
             every corner sparks curiosity and every step unleashes endless
             possibilities!
           </p>
-        </Transition>
+       
       </div>
     </div>
   );
