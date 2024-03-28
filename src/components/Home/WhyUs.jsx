@@ -3,37 +3,37 @@ import Accordion from '../Attractions/Accordion'
 import i1 from '../../assets/homekid2b.jpg'
 const WhyUs = () => {
     const items = [
-  {
-    title: 'Soft Play Arena',
-    
-    
-
-
-
-    image: i1 
-  },
-  {
-    title: 'Birthday Parties',
-    
-    image: i1
-},
-  {
-    title: 'Kitty Parties',
-    
-    image: i1
-},
-  {
-    title: 'Work Station',
-    
-    image: i1
-},
-  {
-    title: 'Cafe',
-    
-    
-    image: i1
-}
-];
+        {
+          title: 'Custom-Themed Play Zones',
+          
+          
+      
+      
+      
+          image: i1 
+        },
+        {
+          title: 'Safety First',
+          
+          image: i1
+      },
+        {
+          title: 'Inclusive & Accessible',
+          
+          image: i1
+      },
+        {
+          title: 'Fun for All Ages',
+          
+          image: i1
+      },
+        {
+          title: 'Variety themed events',
+          
+          
+          image: i1
+      }
+      ];
 
 
   return (

@@ -13,22 +13,28 @@ const Accordion = ({ items }) => {
             onClick={() => setOpenIndex(openIndex === index ? null : index)} style={{marginLeft: '20%', width: '60%'}}
           >
              <span className="text-lg font-semibold flex items-center " style={{ marginLeft: '40%'}}>{item.title}</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className={`h-6 w-6 transition-transform transform ${
-                openIndex === index ? 'rotate-180' : ''
-              }`}
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M19 9l-7 7-7-7"
-              />
-            </svg>
+             <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className={`h-6 w-6 transition-transform transform ${
+        openIndex === index ? 'rotate-180' : ''
+      }`}
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M3 11c.99 0 2.428-.509 3.482-1.313C7.865 9.675 9 8.99 9 8c0-2.21-3-4-3-4s-3 1.79-3 4c0 1.844 1.134 2.683 2 3.187M9 8c0 1.104.896 2 2 2 .418 0 .791-.198 1.12-.511M9 8c0-1.104.896-2 2-2 .418 0 .791.198 1.12.511M9 8c0-.552.447-1 1-1 .552 0 1 .448 1 1"
+      />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M15.693 10.287c1.054.804 2.491 1.313 3.482 1.313 0 0-3-1.79-3-4 0-1.104.896-2 2-2 1.104 0 2 .896 2 2 0 .99 1.135 1.675 2.518 2.687M15.693 10.287C14.03 11.666 13 12.877 13 14c0 1.104.896 2 2 2 1.104 0 2-.896 2-2 0-1.123-1.03-2.334-2.693-3.713M13 14c0 .552-.448 1-1 1-.553 0-1-.448-1-1"
+      />
+    </svg>
           </button>
           <Transition
             show={openIndex === index}

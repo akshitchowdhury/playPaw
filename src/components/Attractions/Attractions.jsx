@@ -5,7 +5,7 @@ import attractionBg from '../../assets/attarctionBg.jpg'
 import i1 from '../../assets/homekid2b.jpg'
 const items = [
   {
-    title: 'Soft Play Arena',
+    title: 'Custom-Themed Play Zones',
     
     
 
@@ -14,22 +14,22 @@ const items = [
     image: i1 
   },
   {
-    title: 'Birthday Parties',
+    title: 'Safety First',
     
     image: i1
 },
   {
-    title: 'Kitty Parties',
+    title: 'Inclusive & Accessible',
     
     image: i1
 },
   {
-    title: 'Work Station',
+    title: 'Fun for All Ages',
     
     image: i1
 },
   {
-    title: 'Cafe',
+    title: 'Variety themed events',
     
     
     image: i1
