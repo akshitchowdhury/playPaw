@@ -34,7 +34,7 @@ const Franchise = () => {
           style={{
             height: "400px",
             borderRadius: "5%",
-            marginLeft: "4%",
+            marginLeft: "4%", 
             width: "100%",
           }}
         />
