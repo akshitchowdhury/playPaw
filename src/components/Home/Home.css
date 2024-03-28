@@ -2,8 +2,19 @@
     /* background-image: url('../../assets/homeBg2.jpg'); */
     margin-top: 3px;
     background-image: linear-gradient(to right, rgb(231, 171, 213), rgb(243, 243, 242));
-}
+    /* animation: fadeIn 1s ease-in-out forwards;  */
+    animation: slideInFromLeft 2s ease-in-out forwards;
+  }
 
+  @keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
 .mystery-quest-regular {
     font-family: "Mystery Quest", system-ui;
     font-weight: 900;
@@ -12,7 +23,8 @@
   
   .londrina-sketch-regular {
     font-family: "Londrina Sketch", sans-serif;
-    font-weight: bolder;
+    font-weight: 100;
     font-style: normal;
+    font-size: 1rem;
   }
   

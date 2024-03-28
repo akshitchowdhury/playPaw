@@ -1,10 +1,16 @@
 import React from 'react';
 import c1 from '../../assets/1.jpeg';
-import c2 from '../../assets/2.jpeg';
+import c2 from '../../assets/7.jpeg';
 import c3 from '../../assets/3.jpeg';
 import c4 from '../../assets/4.jpeg';
 import c5 from '../../assets/5.jpeg';
 import c6 from '../../assets/2.jpeg';
+import c7 from '../../assets/8.jpeg';
+import c8 from '../../assets/19.jpeg';
+import c9 from '../../assets/18.jpeg';
+import c10 from '../../assets/17.jpeg';
+import c11 from '../../assets/16.jpeg';
+import c12 from '../../assets/15.jpeg';
 import './ImageCardContainer.css'
 import { Link } from 'react-router-dom';
 
@@ -55,6 +61,30 @@ const ImageCardContainer = () => {
       imageUrl: c6,
       
     },
+    {
+      imageUrl: c7,
+      
+    },
+    {
+      imageUrl: c8,
+      
+    },
+    {
+      imageUrl: c9,
+      
+    },
+    {
+      imageUrl: c10,
+      
+    },
+    {
+      imageUrl: c11,
+      
+    },
+    {
+      imageUrl: c12,
+      
+    },
   ];
 
   return (
@@ -62,8 +92,8 @@ const ImageCardContainer = () => {
     <div className="block">
     <div className="content">
     <div className="flex flex-col items-center justify-center h-screen" style={{marginLeft: '5%'}}>
-    <h1 className="londrina-sketch-regular tracking-widest border-fuchsia-900 text-fuchsia-900">Take a closer look</h1>
-    <h4 className="text-lg md:text-xl lg:text-2xl text-center">Join us for these exciting events. Hurry, spaces fill up fast!</h4>
+    <h1 className="bubblegum-sans-regular tracking-widest border-fuchsia-900 text-fuchsia-900">Create unforgettable memories and cherished moments at Play Pawws!</h1>
+    <h4 className="text-lg md:text-xl lg:text-2xl text-center"> Bring your kids and let the adventure begin</h4>
 </div>
 </div>
      <div className="Icontainer grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
