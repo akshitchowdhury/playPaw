@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import franchise from "../../assets/17.jpeg";
-import franchise2 from "../../assets/16.jpeg";
+import franchise from "../../assets/9.jpeg";
+import franchise2 from "../../assets/25.jpeg";
 import "./Franchise.css";
 import { Transition } from "@headlessui/react";
 import VideoCarousel from "../Home/VideoCarousel";
