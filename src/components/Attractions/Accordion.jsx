@@ -103,6 +103,9 @@
 
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
+import { faChild, faPaw } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const Accordion = ({ items }) => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -116,7 +119,13 @@ const Accordion = ({ items }) => {
   onClick={() => setOpenIndex(openIndex === index ? null : index)}
 >
             <span className="text-lg font-semibold text-fuchsia-700">{item.title}</span>
-            <svg
+            
+            <FontAwesomeIcon icon= {faPaw}  className={`h-6 w-6 transition-transform transform ${
+                openIndex === index ? "rotate-180" : ""
+              }`} />
+
+
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               className={`h-6 w-6 transition-transform transform ${
                 openIndex === index ? "rotate-180" : ""
@@ -137,7 +146,7 @@ const Accordion = ({ items }) => {
                 strokeWidth={2}
                 d="M15.693 10.287c1.054.804 2.491 1.313 3.482 1.313 0 0-3-1.79-3-4 0-1.104.896-2 2-2 1.104 0 2 .896 2 2 0 .99 1.135 1.675 2.518 2.687M15.693 10.287C14.03 11.666 13 12.877 13 14c0 1.104.896 2 2 2 1.104 0 2-.896 2-2 0-1.123-1.03-2.334-2.693-3.713M13 14c0 .552-.448 1-1 1-.553 0-1-.448-1-1"
               />
-            </svg>
+            </svg> */}
           </button>
           <Transition
             show={openIndex === index}
