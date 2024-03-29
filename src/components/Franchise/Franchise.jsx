@@ -3,6 +3,10 @@ import franchise from "../../assets/17.jpeg";
 import franchise2 from "../../assets/16.jpeg";
 import "./Franchise.css";
 import { Transition } from "@headlessui/react";
+import VideoCarousel from "../Home/VideoCarousel";
+import v1 from '../../assets/video/1.mp4'
+import v2 from '../../assets/video/2.mp4'
+import v3 from '../../assets/video/3.mp4'
 
 const Franchise = () => {
   const [showParagraph1, setShowParagraph1] = useState(false);
@@ -15,6 +19,11 @@ const Franchise = () => {
   const toggleParagraph2 = () => {
     setShowParagraph2(!showParagraph2);
   };
+
+  const urls = [
+  v1,
+  v2,v3
+];
 
   return (
     <div className="franchise">
@@ -121,6 +130,11 @@ const Franchise = () => {
           </p>
        
       </div>
+
+      <div className="bubblegum-sans-regular self-center mt-8 text-4xl tracking-wider text-center text-fuchsia-900 max-w-[90%] mx-auto" style={{fontWeight: '700', fontSize: '3rem', lineHeight: '70px', textAlign: 'left'}}>
+    Take a dive into the Energetic Moments we've stitched here at Paly Pawws!
+</div>
+<VideoCarousel urls={urls}/>
     </div>
   );
 };
