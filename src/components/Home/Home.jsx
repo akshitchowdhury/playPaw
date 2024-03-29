@@ -1,7 +1,7 @@
 import React from 'react'
 
 import homeKid from '../../assets/home1.png'
-import homeKid2 from '../../assets/Designer.png'
+
 import homeKid3 from '../../assets/abt2.png'
 import homeKid4 from '../../assets/event1.png'
 import about from "../../assets/abt1.png";
