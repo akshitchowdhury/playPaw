@@ -1,9 +1,15 @@
-import React from 'react'
-import logo from '../../assets/logo.jpg'
+import React from "react";
+import logo from "../../assets/logo.jpg";
+import { Link } from "react-router-dom";
+
+
+
 const Footer = () => {
   return (
-<div className="flex flex-col pt-14 pr-7 pb-8 pl-20 mt-11 w-full bg-neutral-900 max-md:px-5 max-md:mt-10 max-md:max-w-full" 
-style={{ backgroundSize: 'cover', marginTop: '-1px'}}>
+    <div
+      className="flex flex-col pt-14 pr-7 pb-8 pl-20 mt-11 w-full bg-neutral-900 max-md:px-5 max-md:mt-10 max-md:max-w-full"
+      style={{ backgroundSize: "cover", marginTop: "-1px" }}
+    >
       <div className="max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-[54%] max-md:ml-0 max-md:w-full">
@@ -11,18 +17,21 @@ style={{ backgroundSize: 'cover', marginTop: '-1px'}}>
               <div className="flex gap-5 max-md:flex-col max-md:gap-0">
                 <div className="flex flex-col w-[74%] max-md:ml-0 max-md:w-full">
                   <div className="flex flex-col max-md:mt-10">
-                  <img
-            loading="lazy"
-            src= {logo}
-            className="shrink-0 max-w-full aspect-[1.41] w-[113px] " style={{borderRadius: '50%'}}
-          />
-          
+                    <img
+                      loading="lazy"
+                      src={logo}
+                      className="shrink-0 max-w-full aspect-[1.41] w-[113px] "
+                      style={{ borderRadius: "50%" }}
+                    />
+
                     <div className="mt-6 text-2xl text-center text-white">
                       ABOUT COMPANY
                     </div>
                     <div className="mt-7 text-base tracking-wide text-neutral-500">
-                      Sapien luctus lesuada sentus pharetra nisi quisuea aenean
-                      eros mus magnis arcu vehicula nascetur feugiat
+                      Play Pawws offers immersive indoor play experiences for
+                      kids. We cultivate creativity, joy, and growth through
+                      exciting activities, parties, and our inviting café. Come
+                      visit today for unforgettable playtime!
                     </div>
                     <img
                       loading="lazy"
@@ -34,13 +43,12 @@ style={{ backgroundSize: 'cover', marginTop: '-1px'}}>
                 <div className="flex flex-col ml-5 w-[26%] max-md:ml-0 max-md:w-full">
                   <div className="flex flex-col grow mt-24 text-base text-neutral-500 max-md:mt-10">
                     <div className="text-2xl text-center text-white">
-                      Our Services
+                      Events Hosted by US
                     </div>
-                    <div className="mt-6 tracking-wide">Online class</div>
-                    <div className="mt-6 tracking-wide">Baby care</div>
-                    <div className="mt-5 tracking-wide">Shop</div>
-                    <div className="mt-5 tracking-wide">Kids Playzone</div>
-                    <div className="mt-5 tracking-wide">Nurse</div>
+                    <div className="mt-6 tracking-wide"><Link to="/birthday"> Birthday Parties</Link></div>
+                    <div className="mt-6 tracking-wide"><Link to="/kitty">Kitty Parties</Link></div>
+                    <div className="mt-5 tracking-wide"><Link to="/event">Event Parties</Link></div>
+                    <div className="mt-5 tracking-wide"><Link to="/cafe">Cafe</Link></div>
                   </div>
                 </div>
               </div>
@@ -54,11 +62,11 @@ style={{ backgroundSize: 'cover', marginTop: '-1px'}}>
                     <div className="text-2xl text-center text-white">
                       Useful links
                     </div>
-                    <div className="mt-6 tracking-wide">About us</div>
-                    <div className="mt-6 tracking-wide">Our team</div>
-                    <div className="mt-6 tracking-wide">Privacy policy</div>
-                    <div className="mt-5 tracking-wide">Contact us</div>
-                    <div className="mt-5 tracking-wide">Terms of service</div>
+                    <div className="mt-6 tracking-wide"><Link to="/about"> About us </Link></div>
+                    <div className="mt-6 tracking-wide"><Link to="/franchise">Franchise</Link></div>
+                    <div className="mt-6 tracking-wide"><Link to="/events">Events</Link></div>
+                    <div className="mt-5 tracking-wide"><Link to="/pricing">Pricing</Link></div>
+                    <div className="mt-5 tracking-wide"><Link to="/contact">Contact</Link></div>
                   </div>
                 </div>
                 <div className="flex flex-col ml-5 w-[70%] max-md:ml-0 max-md:w-full">
@@ -85,7 +93,8 @@ style={{ backgroundSize: 'cover', marginTop: '-1px'}}>
       <div className="self-center mt-7 text-base tracking-wide text-neutral-500 max-md:max-w-full">
         @copyright 2024 Powered by Innomatrics Technologies
       </div>
-    </div>  )
-}
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;
