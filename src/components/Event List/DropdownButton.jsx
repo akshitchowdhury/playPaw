@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   TEDropdown,
   TEDropdownToggle,
@@ -7,52 +7,53 @@ import {
   TERipple,
 } from "tw-elements-react";
 
+import {  faPaw } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import '../Nav.css'
 import { Link } from "react-router-dom";
 
 export default function DropdownBasicExample() {
+  const [openTab, setOpenTab] = useState(false);
+
   return (
-    <TEDropdown className="flex justify-center">
+    <TEDropdown className="flex justify-center" style={{marginLeft: '-2rem'}}>
       <TERipple rippleColor="dark">
         <TEDropdownToggle
-          className= "dropdown flex items-center whitespace-nowrap rounded "
+          className="dropdown flex items-center whitespace-nowrap rounded"
+          onClick={() => setOpenTab(!openTab)} // Toggles openTab state
+          
         >
-          Event Parties
-          <span className="ml-2 [&>svg]:w-5 w-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fillRule="evenodd"
-                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                clipRule="evenodd"
-              />
-            </svg>
+          
+          <span className="ml-2">
+            <FontAwesomeIcon
+              icon={faPaw}
+              className={`h-6 w-6 transition-transform transform ${
+                openTab ? "" : "rotate-180" // Rotate if openTab is true
+              }`}
+            />
           </span>
         </TEDropdownToggle>
       </TERipple>
 
       <TEDropdownMenu>
-        <TEDropdownItem  style={{backgroundColor: 'pink'}}>
+        <TEDropdownItem style={{backgroundColor: 'pink'}}>
           <Link to="/birthday">
             Birthday Celebrations
-            </Link>
+          </Link>
         </TEDropdownItem>
         <TEDropdownItem style={{backgroundColor: 'pink'}}>
-        <Link to="/kitty" >
+          <Link to="/kitty">
             Kitty Parties
           </Link>
         </TEDropdownItem>
         <TEDropdownItem style={{backgroundColor: 'pink'}}>
-        <Link to="/event" >
+          <Link to="/event">
             Event Parties
           </Link>
         </TEDropdownItem>
         <TEDropdownItem style={{backgroundColor: 'pink'}}>
-        <Link to="/cafe" >
+          <Link to="/cafe">
             Cafe
           </Link>
         </TEDropdownItem>

@@ -37,7 +37,12 @@
     
   }
 
+
   @media screen and (max-width: 768px) {
+
+    .pawDropDown{
+      display: none;
+    }
     .NavbarCollapse {
       position: absolute; /* Position the dropdown absolutely */
        top: 18%;/* Place the dropdown below the button */
