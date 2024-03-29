@@ -1,0 +1,26 @@
+.mini_map {
+    width: 200px;
+    height: 200px;
+    /* Other styling */
+}
+
+.footer{
+    width: auto;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 700px) {
+    
+
+    .footer{
+        width: auto;
+        height: auto;
+    }
+    .mini_map {
+        width: 300px;
+        height: 400px;
+        /* Other styling */
+    }
+
+}
