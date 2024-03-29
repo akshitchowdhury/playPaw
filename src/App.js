@@ -16,6 +16,7 @@ import BirthdayParties from './components/Event List/BirthdayParties';
 import KittyParties from './components/Event List/KittyParties';
 import EventParties from './components/Event List/EventParties';
 import Cafe from './components/Event List/Cafe';
+import SocialIcons from './components/Social Icons/SocialIcons';
 
 
 
@@ -24,6 +25,7 @@ function App() {
     <div className="App">
     <Router>
     <NAv/>
+    <SocialIcons/>
       <Routes>
         
       

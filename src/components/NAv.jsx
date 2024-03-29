@@ -72,7 +72,7 @@ export default function NAv() {
         <span className="bubblegum-sans-regular self-center whitespace-nowrap text-xl text-fuchsia-900 font-semibold dark:text-white" >Play Pawws</span>
       </NavbarBrand>
       <div className="flex md:order-2 ">
-        <Button ><Link to='/contact' >Get a Quote</Link></Button>
+        <Button ><Link to='/contact' >Book Now!</Link></Button>
         <NavbarToggle />
       </div>
       <NavbarCollapse className='NavbarCollapse'>
