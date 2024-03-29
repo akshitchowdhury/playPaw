@@ -12,7 +12,7 @@ const Home2half = () => {
   return (
     <>
       <div className="bubblegum-sans-regular self-center mt-8 text-4xl tracking-wider text-center text-fuchsia-900 max-w-[90%] mx-auto">
-        Providing Good Qualities For Your Loving Kids
+      Play Pawws: Services and Play Stops for You and Your Playful Kids
       </div>
 
       <div className="self-center px-4 mt-8 w-full max-w-[90%] mx-auto">
@@ -26,9 +26,9 @@ const Home2half = () => {
               className="aspect-square w-[65px]"
               alt="Bus Service"
             />
-            <div className="bubblegum-sans-regular mt-5 text-2xl font-semibold tracking-wider">Birthdays</div>
+            <div className="bubblegum-sans-regular mt-5 text-2xl font-semibold tracking-wider">Birthday Celebrations</div>
             <div className="mt-5 text-base tracking-wide">
-              Ubiquitous models rather than parallel initiatives. Seamlessly reinvent success.
+            Let Play Pawws host your birthday and turn every moment into a joyful celebration!
             </div>
           </div>
           </Link>
@@ -44,7 +44,7 @@ const Home2half = () => {
             />
             <div className="bubblegum-sans-regular mt-5 text-2xl font-semibold tracking-wider">Event Parties</div>
             <div className="mt-5 text-base tracking-wide">
-              Ubiquitous models rather than parallel initiatives. Seamlessly reinvent success.
+            Experience the magic of event parties hosted by Play Pawws, where every moment is infused with joy and excitement!
             </div>
           </div>
           </Link>
@@ -60,7 +60,7 @@ const Home2half = () => {
             />
             <div className="bubblegum-sans-regular mt-5 text-2xl font-semibold tracking-wider">Kitty Parties</div>
             <div className="mt-5 text-base tracking-wide">
-              Ubiquitous models rather than parallel initiatives. Seamlessly reinvent success.
+            Indulge in purr-fectly delightful kitty parties hosted by Play Pawws, where fun and feline charm collide!
             </div>
           </div>
           </Link>
@@ -76,7 +76,7 @@ const Home2half = () => {
             />
             <div className="bubblegum-sans-regular mt-5 text-2xl font-semibold tracking-wider">Cafe</div>
             <div className="mt-5 text-base tracking-wide">
-              Ubiquitous models rather than parallel initiatives. Seamlessly reinvent success.
+            Relax and unwind in the cozy café and lounge area at Play Pawws, where every moment is infused with comfort and charm
             </div>
           </div>
           </Link>
