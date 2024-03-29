@@ -96,7 +96,7 @@ const Franchise = () => {
             height: "500px",
             borderRadius: "5%",
             marginRight: "4%",
-            width: "350rem",
+            width: "150rem",
             
           }}
           
