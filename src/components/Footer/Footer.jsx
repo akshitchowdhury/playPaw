@@ -65,11 +65,14 @@ const Footer = () => {
                       exciting activities, parties, and our inviting café. Come
                       visit today for unforgettable playtime!
                     </div>
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/8b04814a6475b7e6e21c849ea669e59c5f40245e743046847011ea10b0d6c5de?"
-                      className="mt-7 max-w-full aspect-[4.76] w-[186px]"
-                    />
+                    
+                    <div className="mt-7 text-base tracking-wide text-neutral-500">
+                    Address: HRBR Service Road, Kalyan Nagar, Bengaluru, Karnataka 560043, India.
+                    <br />
+                    Contact no: +91-9740733118| +91-9740733118
+                    </div>
+
+
                   </div>
                 </div>
                 <div className="flex flex-col ml-5 w-[26%] max-md:ml-0 max-md:w-full">
