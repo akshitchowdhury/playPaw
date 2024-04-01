@@ -1,5 +1,6 @@
 import React from "react";
 import "./Pricing.css";
+import { Link } from "react-router-dom";
 
 const PricingComponent = () => {
   return (
@@ -98,9 +99,10 @@ const PricingComponent = () => {
               </li>
               {/* Additional list items */}
             </ul>
+            <Link to='/contact'>
             <button className="bg-pink-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 text-white font-medium rounded-full text-sm px-5 py-2.5 text-center">
-              <p>Book now</p>
-            </button>
+            Book now
+            </button></Link>
           </div>
           {/* Additional Pricing Cards */}
 
@@ -196,9 +198,10 @@ const PricingComponent = () => {
               {/* Additional list items */}
             </ul>
 
+            <Link to='/contact'>
             <button className="bg-pink-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 text-white font-medium rounded-full text-sm px-5 py-2.5 text-center">
-              <p>Book now</p>
-            </button>
+              Book now
+            </button></Link>
           </div>
 
           <div className="pricing3 flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100  xl:p-8 dark:bg-gray-800 dark:text-white">
@@ -292,9 +295,11 @@ const PricingComponent = () => {
               </li>
               {/* Additional list items */}
             </ul>
+            <Link to='/contact'>
             <button className="bg-pink-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 text-white font-medium rounded-full text-sm px-5 py-2.5 text-center">
-              <p>Book now</p>
+            Book now
             </button>
+            </Link>
           </div>
         </div>
       </div>
