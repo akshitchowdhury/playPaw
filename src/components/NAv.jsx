@@ -63,8 +63,15 @@ import logo from '../assets/logo.jpg'
 import { Link } from 'react-router-dom';
 import './Nav.css'
 import DropdownBasicExample from './Event List/DropdownButton';
+import { useState } from 'react';
 
 export default function NAv() {
+  const [activeLink, setActiveLink] = useState('');
+
+  const handleLinkClick = (link) => {
+    setActiveLink(link);
+  };
+
   return (
     <Navbar className='navbar' fluid rounded style={{height: '100px'}}>
       <NavbarBrand href="https://flowbite-react.com">
@@ -77,8 +84,8 @@ export default function NAv() {
       </div>
       <NavbarCollapse className='NavbarCollapse'>
    
-      <Navbar.Link href="#" active >
-      <Link className='navbar-link' to="/" active>
+      <Navbar.Link href="#"  >
+      <Link className='navbar-link' to="/" >
           Home
         </Link>
         </Navbar.Link>

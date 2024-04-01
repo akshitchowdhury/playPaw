@@ -42,7 +42,7 @@ const Home = () => {
     
     
     <div className="bubblegum-sans-regular self-center mt-8 text-4xl tracking-wider text-center text-fuchsia-900 max-w-[90%] mx-auto" style={{fontWeight: '700', fontSize: '3rem', lineHeight: '70px', textAlign: 'left'}}>
-    Step into the World of Playful Pawws: Where Imagination Takes the Lead!
+   Let’s Have Fun in Pawws style! 
 </div>
 <br />
 <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start" style={{ padding: '4%' }}>
