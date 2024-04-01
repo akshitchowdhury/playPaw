@@ -6,6 +6,8 @@ import homeKid3 from '../../assets/abt2.png'
 import homeKid4 from '../../assets/event1.png'
 import about from "../../assets/abt1.png";
 
+
+
 import './Home.css'
 import Home2half from './Home2half'
 import Home3half from './Home3half'

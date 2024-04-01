@@ -41,21 +41,21 @@ right: 0;
 
 @keyframes slideshow {
     0% {
-        background-image: url('../../assets/21.jpeg');
+        background-image: url('../../assets/realPics/21.jpeg');
     }
     20% {
-        background-image: url('../../assets/12.jpeg');
+        background-image: url('../../assets/realPics/51.jpeg');
     }
     40% {
-        background-image: url('../../assets/15.jpeg');
+        background-image: url('../../assets/realPics/44.jpeg');
     }
     60% {
-        background-image: url('../../assets/17.jpeg');
+        background-image: url('../../assets/realPics/16.jpeg');
     }
     80% {
-        background-image: url('../../assets/18.jpeg');
+        background-image: url('../../assets/realPics/28.jpeg');
     }
     100% {
-        background-image: url('../../assets/11.jpeg') /* Loop back to the first image */
+        background-image: url('../../assets/realPics/21.jpeg') /* Loop back to the first image */
     }
 }

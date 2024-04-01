@@ -1,10 +1,10 @@
 import React from "react";
 import Accordion from "../Attractions/Accordion";
-import i1 from "../../assets/20.jpeg";
-import i2 from "../../assets/2.jpeg";
-import i3 from "../../assets/5.jpeg";
-import i4 from "../../assets/11.jpeg";
-import i5 from "../../assets/23.jpeg";
+import i1 from "../../assets/realPics/20.jpeg";
+import i2 from "../../assets/realPics/2.jpeg";
+import i3 from "../../assets/realPics/5.jpeg";
+import i4 from "../../assets/realPics/11.jpeg";
+import i5 from "../../assets/realPics/23.jpeg";
 const WhyUs = () => {
   const items = [
     {

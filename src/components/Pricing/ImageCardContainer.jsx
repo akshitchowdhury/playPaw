@@ -1,16 +1,16 @@
 import React from 'react';
-import c1 from '../../assets/1.jpeg';
-import c2 from '../../assets/7.jpeg';
-import c3 from '../../assets/3.jpeg';
-import c4 from '../../assets/4.jpeg';
-import c5 from '../../assets/5.jpeg';
-import c6 from '../../assets/2.jpeg';
-import c7 from '../../assets/8.jpeg';
-import c8 from '../../assets/19.jpeg';
-import c9 from '../../assets/18.jpeg';
-import c10 from '../../assets/17.jpeg';
-import c11 from '../../assets/16.jpeg';
-import c12 from '../../assets/15.jpeg';
+import c1 from '../../assets/realPics/44.jpeg';
+import c2 from '../../assets/realPics/7.jpeg';
+import c3 from '../../assets/realPics/3.jpeg';
+import c4 from '../../assets/realPics/4.jpeg';
+import c5 from '../../assets/realPics/5.jpeg';
+import c6 from '../../assets/realPics/45.jpeg';
+import c7 from '../../assets/realPics/8.jpeg';
+import c8 from '../../assets/realPics/19.jpeg';
+import c9 from '../../assets/realPics/50.jpeg';
+import c10 from '../../assets/realPics/17.jpeg';
+import c11 from '../../assets/realPics/16.jpeg';
+import c12 from '../../assets/realPics/15.jpeg';
 import './ImageCardContainer.css'
 import { Link } from 'react-router-dom';
 

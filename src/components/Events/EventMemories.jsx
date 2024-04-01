@@ -1,10 +1,10 @@
 import React from 'react';
-import c1 from '../../assets/1.jpeg';
-import c2 from '../../assets/2.jpeg';
-import c3 from '../../assets/3.jpeg';
-import c4 from '../../assets/4.jpeg';
-import c5 from '../../assets/5.jpeg';
-import c6 from '../../assets/2.jpeg';
+import c1 from '../../assets/realPics/1.jpeg';
+import c2 from '../../assets/realPics/2.jpeg';
+import c3 from '../../assets/realPics/3.jpeg';
+import c4 from '../../assets/realPics/4.jpeg';
+import c5 from '../../assets/realPics/5.jpeg';
+import c6 from '../../assets/realPics/2.jpeg';
 import './EventMemories.css'
 import { Link } from 'react-router-dom';
 
