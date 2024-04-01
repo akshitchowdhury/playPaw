@@ -28,8 +28,7 @@ const Franchise = () => {
   return (
     <div className="franchise">
       <div className="schoolbell-regular text-pink-800" style={{ marginBottom: '7%' }}>
-        Welcome to the Pawws Paradise Family – A Franchise Opportunity Tailored
-        for Pet Pals and Tiny Tots!
+      Introducing the Pawws Paradise Family – A Captivating Franchise Adventure Perfect for Young Explorers and Their Families!
       </div>
 
       <div

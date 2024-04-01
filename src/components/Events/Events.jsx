@@ -10,8 +10,7 @@ const Events = () => {
   return (
     <div className="events" style={{ padding: "5%" }}>
       <h1 className="londrina-sketch-regular tracking-widest border-fuchsia-900 text-fuchsia-900">
-        Come Pounce and Play – Pawws Promises a Purr-fect Party!
-        
+      Get set to Jump and Dive – Where we assure you and your tiny tots a space of memorable time and adventure 
         
       
       
