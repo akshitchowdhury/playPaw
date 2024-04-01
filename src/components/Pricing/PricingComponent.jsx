@@ -3,11 +3,11 @@ import "./Pricing.css";
 
 const PricingComponent = () => {
   return (
-    <section className=" dark:bg-gray-900">
+    <section >
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
           {/* Pricing Card */}
-          <div className="pricing1 flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900  rounded-lg border border-gray-100  xl:p-8 dark:bg-gray-800 dark:text-white">
+          <div className="pricing1 flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900  rounded-lg border border-gray-100  xl:p-8  dark:text-white">
             <h3 className="mb-4 text-2xl font-semibold">Mini Adventure</h3>
             {/* <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next project.</p> */}
             <div className="flex justify-center items-baseline my-8">
