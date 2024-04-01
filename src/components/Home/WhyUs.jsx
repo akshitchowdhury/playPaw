@@ -24,7 +24,7 @@ const WhyUs = () => {
       title: "Inclusive & Accessible",
 
       image: i3,
-      desc: "At Play Paww, we warmly welcome every child, including those with special needs, positioning us as the ultimate choice for indoor play experiences for kids.",
+      desc: "At Play Pawws, we warmly welcome every child, including those with special needs, positioning us as the ultimate choice for indoor play experiences for kids.",
     },
     {
       title: "Fun for All Ages",
