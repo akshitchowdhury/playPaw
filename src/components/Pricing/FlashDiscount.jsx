@@ -33,10 +33,10 @@ const FlashDiscount = () => {
             className="absolute top-0 left-24 bg-orange-300 p-2 rounded-lg"
            style={{width: '300px', height: '200px'}}>
             <h3 className="bubblegum-sans-regular text-fuchsia-700 mb-4 text-2xl font-semibold">Early Bird Offer!</h3>
-            <p className="text-md text-gray-600 mt-2">Promotional offer: <span className="text-green-600 font-semibold">250/-</span> till end of April</p>
+            <p className="text-md text-gray-600 mt-2">Don't miss out on our exclusive limited-time deal:   <span className="text-green-600 font-semibold">Grab it for just Rs.250/- </span> till end of April</p>
             <Link to='/contact'>
             <div className="w-1/2 bg-pink-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 text-white font-medium rounded-full text-sm px-5 py-2.5 text-center"
-            style={{marginTop: '20%', marginLeft: '20%'}}>
+            style={{marginTop: 'auto', marginLeft: '20%'}}>
               Book now
             </div></Link>
           </div>
