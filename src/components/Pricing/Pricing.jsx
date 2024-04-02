@@ -2,6 +2,7 @@ import React from 'react';
 import './PricingMain.css'
 import PricingComponent from './PricingComponent';
 import ImageCardContainer from './ImageCardContainer';
+import FlashDiscount from './FlashDiscount';
 
 const Pricing = () => {
   return (
@@ -18,7 +19,7 @@ const Pricing = () => {
     Discover our incredibly fun pricing plans designed just for you to have a blast in our indoor play wonderlands. Dive into endless playtime with our affordable and customizable packages, making every moment full of laughter and excitement!
     </p>
    
-
+    <FlashDiscount/>
 
     <PricingComponent/>
     

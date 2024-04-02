@@ -264,7 +264,7 @@ const PricingComponent = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span>No. of entries: 1</span>
+                <span>Unlimited access to all play zones</span>
               </li>
               
               <li className="flex items-center space-x-3">
@@ -281,7 +281,7 @@ const PricingComponent = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span>Play Time: 30 minutes</span>
+                <span>Play Time: 1hr/day (TnC)</span>
               </li>
               <li className="flex items-center space-x-3">
                 {/* Icon */}
@@ -348,7 +348,7 @@ const PricingComponent = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span>No. of entries: 1</span>
+                <span>Unlimited access to all play zones</span>
               </li>
               <li className="flex items-center space-x-3">
                 {/* Icon */}
@@ -364,7 +364,7 @@ const PricingComponent = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span>Play Time: 30 minutes</span>
+                <span>Play Time: 1hr/day (TnC)</span>
               </li>
               <li className="flex items-center space-x-3">
                 {/* Icon */}
@@ -430,7 +430,7 @@ const PricingComponent = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span>No. of entries: 20</span>
+                <span>Unlimited access to all play zones</span>
               </li>
               
               <li className="flex items-center space-x-3">
@@ -447,7 +447,7 @@ const PricingComponent = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span>Play Time: 60 minutes/entry</span>
+                <span>Play Time: 1hr/day (TnC)</span>
               </li>
               <li className="flex items-center space-x-3">
                 {/* Icon */}
@@ -513,7 +513,7 @@ const PricingComponent = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span>No. of entries: 20</span>
+                <span>Unlimited access to all play zones</span>
               </li>
               
               <li className="flex items-center space-x-3">
@@ -530,7 +530,7 @@ const PricingComponent = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span>Play Time: 60 minutes/entry</span>
+                <span>Play Time: 1hr/day (TnC)</span>
               </li>
               <li className="flex items-center space-x-3">
                 {/* Icon */}

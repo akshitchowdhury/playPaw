@@ -1,0 +1,16 @@
+.discountButton button {
+    background-image: url('../../assets/discountLogo.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    animation: pulsate 0.2s infinite alternate; /* Change the duration and other parameters as needed */
+}
+
+@keyframes pulsate {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
