@@ -7,7 +7,7 @@ import 'leaflet/dist/leaflet.css';
 import './Footer.css';
 
 const Footer = () => {
-  const fixedLocation = [12.8904985, 77.5596266]; // Fixed location coordinates
+  const fixedLocation = [13.0270199,77.6334501]; // Fixed location coordinates
   const [userLocation, setUserLocation] = useState(null);
 
   const redIcon = new L.Icon({
@@ -134,7 +134,7 @@ const Footer = () => {
                           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         />
                         <Marker position={fixedLocation} icon={redIcon} eventHandlers={{ click: handleMarkerClick }}>
-                          <Popup>KK Industries</Popup>
+                          <Popup>Play Pawws</Popup>
                         </Marker>
                         {userLocation && (
                           <Marker position={userLocation}>
