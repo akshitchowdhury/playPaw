@@ -66,7 +66,7 @@ const Home = () => {
 <br/>
 
   <div className="bubblegum-sans-regular self-center mt-8 text-4xl tracking-wider text-center text-fuchsia-900 max-w-[90%] mx-auto" style={{fontWeight: '700', fontSize: '3rem', lineHeight: '70px', textAlign: 'left'}}>
-    Take a dive into the Energetic Moments we've stitched here at Paly Pawws!
+    Take a dive into the Energetic Moments we've stitched here at Play Pawws!
 </div>
 <VideoCarousel urls={urls}/>
 {/* <Home3half/> */}
