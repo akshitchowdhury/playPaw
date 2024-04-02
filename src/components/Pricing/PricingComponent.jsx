@@ -19,7 +19,7 @@ const PricingComponent = () => {
             <h3 className="mb-4 text-2xl font-semibold">Weekday Adventure</h3>
             {/* <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next project.</p> */}
             <div className="flex justify-center items-baseline my-8">
-              <span className="mr-2 text-3xl font-extrabold">Rs. 399</span>
+              <span className="mr-2 text-3xl font-extrabold">Rs. 299</span>
               <span className="text-gray-500 dark:text-gray-400">/hour</span>
             </div>
             {/* List */}
@@ -117,7 +117,7 @@ const PricingComponent = () => {
             <h3 className="mb-4 text-2xl font-semibold">Weekend Magic</h3>
             {/* <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next project.</p> */}
             <div className="flex justify-center items-baseline my-8">
-              <span className="mr-2 text-3xl font-extrabold">Rs. 499</span>
+              <span className="mr-2 text-3xl font-extrabold">Rs. 350</span>
               <span className="text-gray-500 dark:text-gray-400">/hour</span>
             </div>
             {/* List */}
