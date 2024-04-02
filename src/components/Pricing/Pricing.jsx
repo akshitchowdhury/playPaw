@@ -15,6 +15,8 @@ const Pricing = () => {
     
     Play Pawws!
     </h2>
+    <br />
+    <br />
     <p className="bubblegum-sans-regular text-lg lg:text-xl text-blue-600 text-center mb-12" style={{fontSize: '1.6rem'}}>
     Discover our incredibly fun pricing plans designed just for you to have a blast in our indoor play wonderlands. Dive into endless playtime with our affordable and customizable packages, making every moment full of laughter and excitement!
     </p>

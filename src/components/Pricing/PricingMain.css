@@ -1,4 +1,5 @@
 .prcingMain{
     
     background-image: linear-gradient(to right, rgb(255, 229, 0), rgb(171, 120, 228)); 
+    background-attachment: fixed;
 }

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const PricingComponent = () => {
   return (
     <section >
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div className="py-4 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         
       <h1 className="bubblegum-sans-regular tracking-widest border-fuchsia-900 text-fuchsia-900">Daily Rates</h1>
       <br />
