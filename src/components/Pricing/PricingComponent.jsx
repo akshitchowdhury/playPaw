@@ -2,6 +2,8 @@ import React from "react";
 import "./Pricing.css";
 import { Link } from "react-router-dom";
 
+
+//  no of entrie = 1 kid for all cards(weekdy/weekend, /day)
 const PricingComponent = () => {
   return (
     <section >
@@ -673,7 +675,7 @@ const PricingComponent = () => {
             <h3 className="mb-4 text-2xl font-semibold">Pawful combo: The Party won't stop</h3>
             {/* <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next project.</p> */}
             <div className="flex justify-center items-baseline my-8">
-              <span className="mr-2 text-3xl font-extrabold">Rs. 12000</span>
+              <span className="mr-2 text-3xl font-extrabold">Rs. 15000</span>
               <span className="text-gray-500 dark:text-gray-400">Party Hall+ Play Area</span>
             </div>
             {/* List */}
@@ -708,7 +710,7 @@ const PricingComponent = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span>Rs.200/kids entry</span>
+                <span>Rs.250/kids entry</span>
               </li>
               <li className="flex items-center space-x-3">
                 {/* Icon */}
