@@ -18,7 +18,7 @@ const About = () => {
             className="bubblegum-sans-regular text-3xl font-bold mb-4 text-fuchsia-700"
             style={{ marginTop: "6%" }}
           >
-            <FontAwesomeIcon icon={faPaw}/> Welcome to Play Paw <FontAwesomeIcon icon={faPaw}/>
+            <FontAwesomeIcon icon={faPaw}/> Welcome to Play Pawws <FontAwesomeIcon icon={faPaw}/>
           </h1>
           <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start" style={{ padding: '4%' }}>
   <img src={about} alt="placeholder" className="eventImg md:w-full" style={{ height: '400px', borderRadius: '5%', marginRight: '4%', width:'100%' }} />
